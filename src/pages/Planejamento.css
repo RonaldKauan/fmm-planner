@@ -1,0 +1,475 @@
+.plan-page {
+  padding-bottom: 80px;
+}
+
+/* ── HERO ── */
+.plan-hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1a1035 50%, #0f172a 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 64px 0;
+}
+
+.plan-hero-inner {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 48px;
+  align-items: center;
+}
+
+.plan-badge {
+  display: inline-block;
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 0.04em;
+}
+
+.plan-hero-text h1 {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #f1f5f9;
+  letter-spacing: -0.03em;
+  margin-bottom: 10px;
+}
+
+.plan-date-label {
+  font-size: 0.85rem;
+  color: #fbbf24;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-transform: capitalize;
+}
+
+.plan-subtitle {
+  color: #94a3b8;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 520px;
+  margin-bottom: 14px;
+}
+
+.exam-ref {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: #64748b;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-family: monospace;
+}
+
+/* ── COUNTDOWN CARD ── */
+.plan-countdown-card {
+  background: rgba(30, 41, 59, 0.85);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px 32px;
+  text-align: center;
+  min-width: 240px;
+  backdrop-filter: blur(8px);
+}
+
+.countdown-days {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #fbbf24;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.countdown-label {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.countdown-date {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+.plan-progress-wrap {
+  margin-top: 4px;
+}
+
+.plan-progress-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #94a3b8;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.plan-progress-bar {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 99px;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.plan-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #f59e0b, #fbbf24);
+  border-radius: 99px;
+  transition: width 0.5s ease;
+}
+
+.plan-progress-sub {
+  font-size: 0.72rem;
+  color: #64748b;
+}
+
+.current-week-badge {
+  margin-top: 14px;
+  padding: 6px 12px;
+  background: rgba(59, 130, 246, 0.15);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 8px;
+  font-size: 0.78rem;
+  color: #93c5fd;
+}
+
+/* ── TIMELINE ── */
+.plan-timeline {
+  padding: 64px 0;
+}
+
+.timeline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ── WEEK CARD ── */
+.week-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+
+.week-card.current {
+  border-color: rgba(59, 130, 246, 0.5);
+  box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.15);
+}
+
+.week-card.done {
+  opacity: 0.65;
+}
+
+.week-card.exam-week {
+  border-color: rgba(239, 68, 68, 0.4);
+}
+
+.week-card.review-week {
+  border-color: rgba(245, 158, 11, 0.4);
+}
+
+.week-header {
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+  gap: 16px;
+  text-align: left;
+  transition: background 0.15s;
+}
+
+.week-header:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.week-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.week-badge {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.week-badge-done {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.week-badge-current {
+  background: rgba(59, 130, 246, 0.2);
+  color: #60a5fa;
+  border: 1px solid rgba(59, 130, 246, 0.4);
+  animation: pulse-ring 2s infinite;
+}
+
+.week-badge-upcoming {
+  background: rgba(255, 255, 255, 0.05);
+  color: #64748b;
+  border: 1px solid var(--border);
+}
+
+@keyframes pulse-ring {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4); }
+  50%       { box-shadow: 0 0 0 6px rgba(59, 130, 246, 0); }
+}
+
+.week-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.week-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.current-tag {
+  background: rgba(59, 130, 246, 0.2);
+  color: #60a5fa;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 99px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.week-dates {
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.week-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.week-focus {
+  font-size: 0.82rem;
+  color: #94a3b8;
+  text-align: right;
+  max-width: 320px;
+}
+
+.week-chevron {
+  font-size: 1.4rem;
+  color: #64748b;
+  transition: transform 0.2s;
+  line-height: 1;
+}
+
+.week-chevron.open {
+  transform: rotate(90deg);
+}
+
+/* ── WEEK BODY ── */
+.week-body {
+  padding: 0 24px 20px;
+  border-top: 1px solid var(--border);
+}
+
+.week-subjects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-top: 18px;
+}
+
+.subject-block {
+  flex: 1;
+  min-width: 200px;
+}
+
+.subject-label {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 6px;
+  border: 1px solid;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.topic-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.topic-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  line-height: 1.4;
+}
+
+.topic-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+.week-tip {
+  margin-top: 16px;
+  padding: 12px 16px;
+  background: rgba(245, 158, 11, 0.07);
+  border: 1px solid rgba(245, 158, 11, 0.2);
+  border-radius: 8px;
+  font-size: 0.82rem;
+  color: #fcd34d;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  line-height: 1.5;
+}
+
+.tip-icon-small {
+  flex-shrink: 0;
+  font-size: 1rem;
+}
+
+/* ── SIMULADO BANNER ── */
+.simulado-semana-banner {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  border: 1px dashed rgba(100, 116, 139, 0.4);
+  background: rgba(255, 255, 255, 0.02);
+  flex-wrap: wrap;
+}
+
+.simulado-semana-banner.active {
+  border-style: solid;
+  border-color: rgba(59, 130, 246, 0.5);
+  background: rgba(59, 130, 246, 0.06);
+  animation: ssb-glow 2.5s ease-in-out infinite;
+}
+
+@keyframes ssb-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+  50%       { box-shadow: 0 0 12px 2px rgba(59, 130, 246, 0.15); }
+}
+
+.ssb-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  flex: 1;
+  min-width: 0;
+}
+
+.ssb-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.ssb-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.ssb-desc {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+
+.ssb-date {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #fbbf24;
+}
+
+.simulado-semana-banner.active .ssb-date {
+  color: #60a5fa;
+}
+
+.ssb-btn {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.ssb-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .plan-hero-inner {
+    grid-template-columns: 1fr;
+  }
+  .plan-countdown-card {
+    width: 100%;
+  }
+  .plan-hero-text h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .week-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .week-right {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+  }
+  .week-focus {
+    text-align: left;
+    max-width: 100%;
+  }
+  .subject-block {
+    min-width: 100%;
+  }
+}

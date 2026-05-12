@@ -1,0 +1,132 @@
+.study-materials {
+  margin-top: 18px;
+}
+
+.sm-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.sm-title-icon { font-size: 0.9rem; }
+
+.sm-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+/* ── CARD ── */
+.sm-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.15s;
+  position: relative;
+  overflow: hidden;
+}
+
+.sm-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--sm-color, #3b82f6);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.sm-card:hover {
+  border-color: var(--sm-color, #3b82f6);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+}
+
+.sm-card:hover::before {
+  opacity: 1;
+}
+
+/* ── CARD TOP ── */
+.sm-card-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sm-type-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.sm-tags {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.sm-tag {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.sm-external {
+  margin-left: auto;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.sm-card:hover .sm-external { opacity: 1; color: var(--sm-color, #3b82f6); }
+
+/* ── CARD BODY ── */
+.sm-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.sm-card-title {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.sm-card-source {
+  font-size: 0.7rem;
+  color: var(--sm-color, #3b82f6);
+  font-weight: 500;
+}
+
+.sm-card-desc {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-top: 2px;
+}
+
+@media (max-width: 600px) {
+  .sm-grid { grid-template-columns: 1fr; }
+}
