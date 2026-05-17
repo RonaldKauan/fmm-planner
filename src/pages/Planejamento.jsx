@@ -1,17 +1,15 @@
 import { useState } from "react";
 import "./Planejamento.css";
 
-// Domingo da semana 1
-const WEEK1_SIMULADO_DATE = new Date("2026-05-17");
+// Data de liberação do simulado da semana 1
+const WEEK1_SIMULADO_RELEASE = "2026-05-17";
 
-function isSimuladoDay() {
-  const now = new Date();
-  return (
-    now.getDay() === 0 && // domingo
-    now.getFullYear() === WEEK1_SIMULADO_DATE.getFullYear() &&
-    now.getMonth() === WEEK1_SIMULADO_DATE.getMonth() &&
-    now.getDate() === WEEK1_SIMULADO_DATE.getDate()
-  );
+function getLocalDateStr(date) {
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+}
+
+function isSimuladoAvailable() {
+  return getLocalDateStr(new Date()) >= WEEK1_SIMULADO_RELEASE;
 }
 
 // Baseado no histórico: PS2025 → 15/12/2024 | PS2026 → 23/11/2025
@@ -662,7 +660,7 @@ const weeks = [
 
 export default function Planejamento({ onNavigate }) {
   const [expanded, setExpanded] = useState(null);
-  const canStartSimulado = isSimuladoDay();
+  const canStartSimulado = isSimuladoAvailable();
   const daysLeft = getDaysLeft();
   const todayStr = TODAY.toLocaleDateString("pt-BR", {
     weekday: "long",
