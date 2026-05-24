@@ -31,7 +31,6 @@ function QuizScreen({ questions, onFinish }) {
   const MINUTES_PER_Q = 4;
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState({});
-  const [revealed, setRevealed] = useState({});
   const [timeLeft, setTimeLeft] = useState(questions.length * MINUTES_PER_Q * 60);
   const timerRef = useRef(null);
   const finishRef = useRef(onFinish);
@@ -55,13 +54,11 @@ function QuizScreen({ questions, onFinish }) {
 
   const q = questions[current];
   const selected = answers[q.id];
-  const isRevealed = revealed[q.id];
   const answered = Object.keys(answers).length;
   const progress = ((current + 1) / questions.length) * 100;
   const timerWarning = timeLeft < 120;
 
-  const select = (i) => { if (!isRevealed) setAnswers((a) => ({ ...a, [q.id]: i })); };
-  const reveal = () => { if (selected !== undefined) setRevealed((r) => ({ ...r, [q.id]: true })); };
+  const select = (i) => setAnswers((a) => ({ ...a, [q.id]: i }));
   const finish = () => { clearInterval(timerRef.current); onFinish(answers); };
 
   return (
@@ -87,10 +84,8 @@ function QuizScreen({ questions, onFinish }) {
       <div className="ss-dots">
         {questions.map((qq, i) => {
           const ans = answers[qq.id];
-          const rev = revealed[qq.id];
           let cls = "ss-dot";
           if (i === current) cls += " current";
-          else if (rev) cls += ans === qq.answer ? " correct" : " wrong";
           else if (ans !== undefined) cls += " answered";
           return (
             <button key={qq.id} className={cls} onClick={() => setCurrent(i)}>
@@ -119,37 +114,19 @@ function QuizScreen({ questions, onFinish }) {
           {q.options.map((opt, i) => {
             let cls = "ss-option";
             if (selected === i) cls += " selected";
-            if (isRevealed) {
-              if (i === q.answer) cls += " correct";
-              else if (selected === i) cls += " wrong";
-            }
             return (
               <button key={i} className={cls} onClick={() => select(i)}>
                 <span className="ss-letter">{String.fromCharCode(65 + i)}</span>
                 <span>{opt}</span>
-                {isRevealed && i === q.answer && <span className="ss-check">✓</span>}
-                {isRevealed && selected === i && i !== q.answer && <span className="ss-x">✗</span>}
               </button>
             );
           })}
         </div>
 
-        {isRevealed && (
-          <div className="ss-explanation">
-            <div className="ss-explanation-title">💡 Explicação</div>
-            <p>{q.explanation}</p>
-          </div>
-        )}
-
         <div className="ss-actions">
           <button className="btn btn-ghost" onClick={() => setCurrent((c) => c - 1)} disabled={current === 0}>
             ← Anterior
           </button>
-          {!isRevealed && (
-            <button className="btn btn-secondary" onClick={reveal} disabled={selected === undefined}>
-              Ver gabarito
-            </button>
-          )}
           {current < questions.length - 1 ? (
             <button className="btn btn-primary" onClick={() => setCurrent((c) => c + 1)}>
               Próxima →

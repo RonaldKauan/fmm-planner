@@ -366,4 +366,559 @@ export const weekSimulados = {
       },
     ],
   },
+
+  // ══════════════════════════════════════════════════════════════════════════════
+  2: {
+    title: "Simulado — Semana 2",
+    subtitle:
+      "Classes de Palavras · Pronomes e Preposições · Potenciação · Radiciação · Notação Científica",
+    date: "2026-05-24",
+    questions: [
+      // ── LÍNGUA PORTUGUESA (15 questões) ────────────────────────────────────
+      // Tópicos: substantivo, adjetivo, verbo, advérbio, pronome, preposição,
+      //          artigo, numeral, interjeição
+
+      {
+        id: "ws2_p1",
+        subject: "portugues",
+        topic: "Substantivo",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Leia a frase:\n\n"A coragem dos bombeiros salvou diversas famílias durante as enchentes em Manaus."\n\nAssinale a alternativa que contém APENAS substantivos presentes na frase:',
+        options: [
+          "coragem, salvou, enchentes",
+          "coragem, bombeiros, famílias, enchentes",
+          "durante, diversas, bombeiros",
+          "bombeiros, salvou, Manaus",
+          "a, dos, durante, em",
+        ],
+        answer: 1,
+        explanation:
+          'Substantivos são palavras que nomeiam seres, objetos, lugares, sentimentos ou ideias. Na frase: "coragem" (sentimento), "bombeiros" (pessoas), "famílias" (grupo de pessoas), "enchentes" (fenômeno), "Manaus" (lugar). "Salvou" é verbo; "diversas" é adjetivo; "durante" e "em" são preposições; "a" e "dos" são artigo e contração.',
+      },
+      {
+        id: "ws2_p2",
+        subject: "portugues",
+        topic: "Substantivo",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Classifique corretamente os substantivos destacados:\n\nI. "Manaus" — substantivo ___\nII. "cidade" — substantivo ___\nIII. "coragem" — substantivo ___\nIV. "cardume" — substantivo ___',
+        options: [
+          "I-comum; II-próprio; III-concreto; IV-coletivo",
+          "I-próprio; II-comum concreto; III-comum abstrato; IV-coletivo",
+          "I-próprio; II-coletivo; III-abstrato; IV-comum",
+          "I-comum; II-abstrato; III-próprio; IV-coletivo",
+          "I-próprio; II-comum abstrato; III-concreto; IV-coletivo",
+        ],
+        answer: 1,
+        explanation:
+          '"Manaus" é substantivo próprio (nome de lugar específico, com inicial maiúscula). "Cidade" é substantivo comum concreto (designa seres reais). "Coragem" é substantivo comum abstrato (sentimento que não tem existência física). "Cardume" é substantivo coletivo (designa um conjunto de peixes). Próprio ≠ comum; concreto ≠ abstrato; coletivo é subtipo do comum.',
+      },
+      {
+        id: "ws2_p3",
+        subject: "portugues",
+        topic: "Adjetivo",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Leia a frase:\n\n"O jovem estudante dedicado sempre obtém resultados excelentes nas avaliações difíceis."\n\nQuantos adjetivos há nessa frase?',
+        options: ["1", "2", "3", "4", "5"],
+        answer: 2,
+        explanation:
+          'Os adjetivos na frase são: "jovem" (qualifica "estudante"), "dedicado" (qualifica "estudante"), "excelentes" (qualifica "resultados") e "difíceis" (qualifica "avaliações") — portanto 4 adjetivos. "Sempre" é advérbio (modifica o verbo "obtém"). Adjetivos qualificam ou caracterizam substantivos e concordam com eles em gênero e número.',
+      },
+      {
+        id: "ws2_p4",
+        subject: "portugues",
+        topic: "Adjetivo",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'As locuções adjetivas são expressões formadas por preposição + substantivo que funcionam como adjetivos. Assinale a alternativa em que a locução adjetiva e seu adjetivo equivalente estão CORRETAMENTE relacionados:',
+        options: [
+          '"de pedra" → pedrento',
+          '"de criança" → infantil',
+          '"de peixe" → piscoso',
+          '"do céu" → celular',
+          '"de ouro" → áureos',
+        ],
+        answer: 1,
+        explanation:
+          '"De criança" é locução adjetiva equivalente ao adjetivo "infantil" (ambos se referem ao que é relativo a criança). "De pedra" → pétreo; "de peixe" → písceo (ou ictíico); "do céu" → celeste (não "celular"); "de ouro" → áureo (e não "áureos", que é o plural). Este tipo de equivalência é frequentemente cobrado na FMM.',
+      },
+      {
+        id: "ws2_p5",
+        subject: "portugues",
+        topic: "Verbo",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Analise as formas verbais abaixo e identifique em qual alternativa o verbo está corretamente no PRETÉRITO IMPERFEITO DO INDICATIVO:',
+        options: [
+          '"Ela estudou muito ontem."',
+          '"Eles tinham chegado antes da chuva."',
+          '"Quando criança, eu brincava todo dia na rua."',
+          '"Se eu estudasse mais, passaria na prova."',
+          '"Amanhã ele viajará para Manaus."',
+        ],
+        answer: 2,
+        explanation:
+          '"Brincava" está no pretérito imperfeito do indicativo — indica ação habitual ou contínua no passado. A — "estudou" = pretérito perfeito (ação concluída). B — "tinham chegado" = pretérito mais-que-perfeito composto. D — "estudasse" = pretérito imperfeito do SUBJUNTIVO (hipótese). E — "viajará" = futuro do presente do indicativo.',
+      },
+      {
+        id: "ws2_p6",
+        subject: "portugues",
+        topic: "Verbo",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Leia as frases:\n\nI. "Estude mais para que você passe na FMM."\nII. "Se você chegar cedo, conseguirá uma boa vaga."\nIII. "Ele foi ao mercado e comprou frutas."\n\nAs formas verbais "passe", "chegar" e "comprou" estão, respectivamente, nos modos:',
+        options: [
+          "Indicativo, Subjuntivo, Indicativo",
+          "Subjuntivo, Subjuntivo, Indicativo",
+          "Imperativo, Indicativo, Indicativo",
+          "Subjuntivo, Indicativo, Subjuntivo",
+          "Imperativo, Subjuntivo, Indicativo",
+        ],
+        answer: 1,
+        explanation:
+          '"Passe" está no presente do subjuntivo (exprime finalidade/desejo: "para que você passe"). "Chegar" está no futuro do subjuntivo (exprime condição/hipótese: "se você chegar"). "Comprou" está no pretérito perfeito do indicativo (ação concluída e real). O subjuntivo expressa incerteza, hipótese, desejo ou condição; o indicativo expressa fatos reais.',
+      },
+      {
+        id: "ws2_p7",
+        subject: "portugues",
+        topic: "Advérbio",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Identifique a classe gramatical e a classificação da palavra em destaque:\n\n"Ela respondeu CALMAMENTE todas as questões da prova da FMM."\n\nA palavra destacada é:',
+        options: [
+          "Adjetivo, pois caracteriza o substantivo 'ela'.",
+          "Advérbio de modo, pois modifica o verbo 'respondeu' indicando como a ação foi feita.",
+          "Advérbio de tempo, pois indica quando a ação ocorreu.",
+          "Adjetivo predicativo, pois aparece após o verbo.",
+          "Substantivo abstrato, pois deriva de 'calma'.",
+        ],
+        answer: 1,
+        explanation:
+          '"Calmamente" é advérbio de modo: modifica o verbo "respondeu" e responde à pergunta "como ela respondeu?". Os advérbios de modo são geralmente formados por adjetivo + sufixo -mente. São invariáveis (não concordam em gênero/número), ao contrário dos adjetivos.',
+      },
+      {
+        id: "ws2_p8",
+        subject: "portugues",
+        topic: "Advérbio",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Em qual das alternativas ocorre ERRO de emprego entre advérbio e adjetivo?',
+        options: [
+          '"Os alunos ficaram bastante animados com a notícia."',
+          '"Ela chegou bem cedo para a prova."',
+          '"Ele estava meio confuso com as instruções."',
+          '"As meninas ficaram meia animadas com o passeio."',
+          '"Você está muito cansado hoje."',
+        ],
+        answer: 3,
+        explanation:
+          '"Meio" usado como advérbio (modificando adjetivo) é INVARIÁVEL: "As meninas ficaram meio animadas". "Meia" (flexionada) só é correto quando for numeral ("comeu meia laranja") ou pronome indefinido ("meia dúzia"). A frase D usa "meia animadas" — erro, pois "meio" está modificando o adjetivo "animadas" e não deve flexionar.',
+      },
+      {
+        id: "ws2_p9",
+        subject: "portugues",
+        topic: "Pronomes",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Leia a frase:\n\n"___ entregou o presente para ___, mas ___ não estava em casa."\n\nAssinale a sequência de pronomes pessoais que preenche CORRETAMENTE as lacunas:',
+        options: [
+          "Ele / mim / ela",
+          "Ele / eu / ela",
+          "Eu / mim / eu",
+          "Mim / ele / ela",
+          "Ele / eu / a",
+        ],
+        answer: 0,
+        explanation:
+          '"Ele" (pronome pessoal reto — sujeito da ação). "mim" (pronome pessoal oblíquo tônico — objeto indireto após preposição "para"). "ela" (pronome pessoal reto — sujeito). Regra: após preposição usa-se o pronome oblíquo: "para mim", "para ti", "para si" — nunca "para eu", "para tu".',
+      },
+      {
+        id: "ws2_p10",
+        subject: "portugues",
+        topic: "Pronomes",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Sobre os pronomes demonstrativos, assinale a alternativa que emprega CORRETAMENTE "este/esse/aquele" de acordo com as normas de distância:',
+        options: [
+          '"Este livro que você tem na mão é ótimo." (referindo-se ao livro do interlocutor)',
+          '"Aquele dia de ontem foi incrível." (referindo-se ao dia anterior)',
+          '"Este assunto que falamos há pouco é muito importante." (referindo-se ao já mencionado)',
+          '"Esse problema aqui na minha frente é difícil." (referindo-se ao que está com o falante)',
+          '"Esse aluno presente aqui vai falar agora." (referindo-se ao que está perto do falante)',
+        ],
+        answer: 2,
+        explanation:
+          '"Este" pode indicar algo já mencionado no texto (anáfora) — uso correto na frase C. Regra geral: "este" = perto de quem fala; "esse" = perto de quem ouve; "aquele" = longe de ambos. A — deveria ser "esse" (perto do interlocutor). B — "ontem" é distância temporal pequena, não "aquele". D — deveria ser "este" (perto do falante). E — idem, deveria ser "este".',
+      },
+      {
+        id: "ws2_p11",
+        subject: "portugues",
+        topic: "Preposições",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'As preposições estabelecem relações entre termos da oração. Assinale a alternativa em que a preposição está usada INCORRETAMENTE segundo a norma padrão:',
+        options: [
+          '"Ele chegou ao colégio às 7 horas."',
+          '"Ela gosta muito de música brasileira."',
+          '"Prefiro assistir o filme em casa."',
+          '"Vou à farmácia buscar o remédio."',
+          '"O aluno obedeceu às regras da escola."',
+        ],
+        answer: 2,
+        explanation:
+          '"Assistir" com o sentido de "ver/presenciar" é verbo transitivo indireto — exige a preposição "a": "Prefiro assistir AO filme em casa." A forma "assistir o filme" (sem preposição) é considerada incorreta na norma culta. Os demais exemplos estão corretos: "chegar a", "gostar de", "ir a/à", "obedecer a".',
+      },
+      {
+        id: "ws2_p12",
+        subject: "portugues",
+        topic: "Artigo",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Leia as frases:\n\nI. "___ aluna chegou primeiro." (aluna específica, já conhecida)\nII. "___ aluna se destacou na turma." (qualquer aluna, sem especificar)\n\nOs artigos que preenchem CORRETAMENTE as lacunas são, respectivamente:',
+        options: [
+          "A / A",
+          "Uma / Uma",
+          "A / Uma",
+          "Uma / A",
+          "Um / Uma",
+        ],
+        answer: 2,
+        explanation:
+          'Artigo DEFINIDO (o, a, os, as) indica algo específico e já conhecido: "A aluna" (aquela aluna específica que já se sabe quem é). Artigo INDEFINIDO (um, uma, uns, umas) indica algo inespecífico ou desconhecido: "Uma aluna se destacou" (alguma aluna qualquer, sem identificar). Esta distinção é básica e frequentemente testada na FMM.',
+      },
+      {
+        id: "ws2_p13",
+        subject: "portugues",
+        topic: "Numeral",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Classifique os numerais em destaque de acordo com sua função:\n\nI. "O TERCEIRO colocado ganhou a medalha de bronze."\nII. "Ela tem O DOBRO de pontos que eu."\nIII. "Comprei VINTE cadernos para o ano letivo."\n\nAs classificações corretas são, respectivamente:',
+        options: [
+          "Cardinal, Ordinal, Multiplicativo",
+          "Ordinal, Fracionário, Cardinal",
+          "Ordinal, Multiplicativo, Cardinal",
+          "Multiplicativo, Ordinal, Cardinal",
+          "Fracionário, Multiplicativo, Ordinal",
+        ],
+        answer: 2,
+        explanation:
+          '"Terceiro" é numeral ordinal (indica posição/ordem: 1º, 2º, 3º...). "Dobro" é numeral multiplicativo (indica múltiplo: dobro = 2×, triplo = 3×, quádruplo = 4×...). "Vinte" é numeral cardinal (indica quantidade exata: 20). Os fracionários indicam partes (meio, terço, quarto...)',
+      },
+      {
+        id: "ws2_p14",
+        subject: "portugues",
+        topic: "Interjeição",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'As interjeições expressam emoções, reações ou estados de espírito. Analise as frases:\n\nI. "Ufa! Que prova difícil!"\nII. "Psiu! Silêncio na biblioteca."\nIII. "Oba! Consegui a vaga na FMM!"\nIV. "Ai! Machuquei o pé."\n\nA sequência que identifica CORRETAMENTE os sentimentos expressos é:',
+        options: [
+          "I-alegria; II-silêncio; III-alívio; IV-dor",
+          "I-alívio; II-pedido de silêncio; III-alegria; IV-dor",
+          "I-surpresa; II-raiva; III-alegria; IV-medo",
+          "I-alívio; II-medo; III-surpresa; IV-tristeza",
+          "I-cansaço; II-ordem; III-dúvida; IV-surpresa",
+        ],
+        answer: 1,
+        explanation:
+          '"Ufa!" expressa alívio (após algo difícil ou demorado). "Psiu!" é interjeição de pedido de silêncio/atenção. "Oba!" expressa alegria/entusiasmo. "Ai!" expressa dor física. As interjeições não variam em gênero ou número e sempre vêm acompanhadas de ponto de exclamação.',
+      },
+      {
+        id: "ws2_p15",
+        subject: "portugues",
+        topic: "Classes de Palavras",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Leia o trecho de uma redação:\n\n"Infelizmente, muitos jovens brasileiros abandonam os estudos cedo. Eles enfrentam dificuldades financeiras sérias, mas alguns superam esses obstáculos com muito esforço."\n\nIdentifique a classe gramatical de cada palavra em destaque, na ordem: "Infelizmente", "sérias", "alguns", "esses":',
+        options: [
+          "Advérbio, adjetivo, pronome indefinido, pronome demonstrativo",
+          "Adjetivo, advérbio, artigo, pronome relativo",
+          "Advérbio, substantivo, numeral, pronome pessoal",
+          "Conjunção, adjetivo, pronome pessoal, artigo",
+          "Advérbio, adjetivo, artigo, pronome indefinido",
+        ],
+        answer: 0,
+        explanation:
+          '"Infelizmente" → advérbio de modo (modifica todo o enunciado). "Sérias" → adjetivo (qualifica o substantivo "dificuldades"). "Alguns" → pronome indefinido (indica quantidade imprecisa de pessoas). "Esses" → pronome demonstrativo (retoma "obstáculos" já mencionados — uso anafórico). Esta questão resume os principais conteúdos da Semana 2.',
+      },
+
+      // ── MATEMÁTICA (15 questões) ────────────────────────────────────────────
+      // Tópicos: Potenciação (propriedades), Raiz quadrada e cúbica, Notação científica
+
+      {
+        id: "ws2_m1",
+        subject: "matematica",
+        topic: "Potenciação",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Em um experimento de biologia, uma única bactéria se divide em duas a cada hora, dobrando sua população. Se o experimento começa com 1 bactéria às 8h00, quantas bactérias existirão às 13h00 (após 5 horas de divisão)?',
+        options: ["10", "16", "25", "32", "64"],
+        answer: 3,
+        explanation:
+          "A cada hora a população dobra: após n horas há 2ⁿ bactérias.\nApós 5 horas: 2⁵ = 2 × 2 × 2 × 2 × 2 = 32 bactérias.\nEssa é a essência da potenciação: base 2, expoente 5. O crescimento exponencial é muito mais rápido do que o linear (que seria 1 + 5 = 6).",
+      },
+      {
+        id: "ws2_m2",
+        subject: "matematica",
+        topic: "Potenciação — Produto de Mesma Base",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Uma fazenda retangular tem um lado medindo 3² metros e o outro lado medindo 3³ metros. Usando as propriedades da potenciação, qual é a área dessa fazenda em metros quadrados?',
+        options: ["3⁶ = 729 m²", "3⁵ = 243 m²", "3⁴ = 81 m²", "6⁵ = 7.776 m²", "9⁵ m²"],
+        answer: 1,
+        explanation:
+          "Área = lado × lado = 3² × 3³.\nPropriedade do produto de potências de mesma base: aᵐ × aⁿ = aᵐ⁺ⁿ.\n3² × 3³ = 3^(2+3) = 3⁵ = 243 m².\nVerificação direta: 3² = 9 e 3³ = 27 → 9 × 27 = 243 ✓",
+      },
+      {
+        id: "ws2_m3",
+        subject: "matematica",
+        topic: "Potenciação — Quociente de Mesma Base",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Uma cooperativa colheu 5⁶ laranjas e vai distribuí-las igualmente entre 5² cestas. Usando as propriedades da potenciação, quantas laranjas haverá em cada cesta?',
+        options: ["5² = 25", "5³ = 125", "5⁴ = 625", "5⁸ = 390.625", "1⁴ = 1"],
+        answer: 2,
+        explanation:
+          "Laranjas por cesta = 5⁶ ÷ 5².\nPropriedade do quociente de potências de mesma base: aᵐ ÷ aⁿ = aᵐ⁻ⁿ (com a ≠ 0).\n5⁶ ÷ 5² = 5^(6−2) = 5⁴ = 625 laranjas por cesta.\nVerificação: 5⁶ = 15.625 ÷ 25 = 625 ✓",
+      },
+      {
+        id: "ws2_m4",
+        subject: "matematica",
+        topic: "Potenciação — Potência de Potência",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Em um torneio escolar, os alunos foram divididos em grupos. O número total de participantes pode ser expresso por (2²)³. Aplique a propriedade da potência de potência e calcule quantos alunos participam do torneio.',
+        options: ["12", "24", "36", "64", "128"],
+        answer: 3,
+        explanation:
+          "Propriedade da potência de potência: (aᵐ)ⁿ = aᵐˣⁿ.\n(2²)³ = 2^(2×3) = 2⁶ = 64 alunos.\nCuidado com erro comum: (2²)³ ≠ 2^(2+3) = 2⁵. Na potência de potência, os expoentes se MULTIPLICAM, não somam.",
+      },
+      {
+        id: "ws2_m5",
+        subject: "matematica",
+        topic: "Potenciação — Expoente Zero e Negativo",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Um professor de matemática escreveu no quadro as seguintes expressões e pediu aos alunos que identificassem qual delas NÃO resulta em 1:\n\nA) 7⁰\nB) (−5)⁰\nC) (0,99)⁰\nD) 0⁰\nE) (1/3)⁰',
+        options: ["A", "B", "C", "D", "E"],
+        answer: 3,
+        explanation:
+          "Pela propriedade a⁰ = 1 (para todo a ≠ 0): 7⁰ = 1; (−5)⁰ = 1; (0,99)⁰ = 1; (1/3)⁰ = 1.\nA expressão 0⁰ é uma INDETERMINAÇÃO matemática (não está definida no contexto do ensino médio). Portanto, a única que não resulta em 1 é D — 0⁰.",
+      },
+      {
+        id: "ws2_m6",
+        subject: "matematica",
+        topic: "Potenciação — Expoente Negativo",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Em química, o pH de uma solução envolve potências de base 10 com expoentes negativos. Se a concentração de íons hidrogênio de uma solução é 10⁻³ mol/L, qual é o valor decimal correto dessa concentração?',
+        options: ["−3 mol/L", "0,3 mol/L", "0,001 mol/L", "0,0001 mol/L", "0,00001 mol/L"],
+        answer: 2,
+        explanation:
+          "Expoente negativo: a⁻ⁿ = 1/aⁿ.\n10⁻³ = 1/10³ = 1/1.000 = 0,001 mol/L.\nRegra prática: 10⁻ⁿ corresponde a mover a vírgula n casas para a esquerda a partir de 1:\n10⁻¹ = 0,1 | 10⁻² = 0,01 | 10⁻³ = 0,001 | 10⁻⁴ = 0,0001",
+      },
+      {
+        id: "ws2_m7",
+        subject: "matematica",
+        topic: "Potenciação — Propriedades Combinadas",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Um engenheiro calcula a resistência de um material usando a expressão:\n\n(3⁴ × 3²) ÷ 3³\n\nAplique as propriedades da potenciação e simplifique o resultado:',
+        options: ["3 = 3", "3² = 9", "3³ = 27", "3⁴ = 81", "3⁵ = 243"],
+        answer: 2,
+        explanation:
+          "Passo 1 — produto de mesma base no numerador: 3⁴ × 3² = 3^(4+2) = 3⁶.\nPasso 2 — quociente de mesma base: 3⁶ ÷ 3³ = 3^(6−3) = 3³ = 27.\nRegra geral: (aᵐ × aⁿ) ÷ aᵖ = aᵐ⁺ⁿ⁻ᵖ.",
+      },
+      {
+        id: "ws2_m8",
+        subject: "matematica",
+        topic: "Raiz Quadrada",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'A Prefeitura de Manaus está revitalizando uma praça quadrada cujo piso tem área total de 196 m². Para calcular a quantidade de gradil necessária para cercar toda a praça, o engenheiro precisa saber o comprimento de cada lado. Qual é a medida do lado dessa praça?',
+        options: ["12 m", "13 m", "14 m", "15 m", "16 m"],
+        answer: 2,
+        explanation:
+          "Praça quadrada: área = lado². Portanto, lado = √área.\nlado = √196 = 14 m.\nVerificação: 14² = 196 ✓\nPara o cercamento (perímetro): 4 × 14 = 56 metros de gradil.",
+      },
+      {
+        id: "ws2_m9",
+        subject: "matematica",
+        topic: "Raiz Quadrada — Simplificação",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Durante uma aula de matemática, a professora pediu que os alunos simplificassem √72 na forma a√b, onde b não possui fatores quadrados perfeitos. Qual é a forma simplificada correta?',
+        options: ["4√3", "3√8", "6√2", "8√3", "9√2"],
+        answer: 2,
+        explanation:
+          "Decompõe 72 em fatores com quadrado perfeito:\n72 = 36 × 2\n√72 = √(36 × 2) = √36 × √2 = 6√2.\nVerificação: (6√2)² = 36 × 2 = 72 ✓\nDica: procure sempre o maior quadrado perfeito que divide o radicando.",
+      },
+      {
+        id: "ws2_m10",
+        subject: "matematica",
+        topic: "Raiz Quadrada — Pitágoras Aplicado",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Um parque urbano tem formato retangular com 30 metros de largura e 40 metros de comprimento. Para a segurança do local, a administração decidiu instalar um cabo de aço na diagonal do parque (de um canto ao canto oposto). Qual é o comprimento desse cabo?',
+        options: ["35 m", "45 m", "48 m", "50 m", "60 m"],
+        answer: 3,
+        explanation:
+          "A diagonal de um retângulo forma a hipotenusa de um triângulo retângulo com catetos 30 m e 40 m.\nPelo Teorema de Pitágoras: d² = 30² + 40² = 900 + 1.600 = 2.500.\nd = √2.500 = 50 m.\nEsta é a terna pitagórica 3-4-5 multiplicada por 10. Memorize as ternas clássicas: (3,4,5), (5,12,13), (6,8,10).",
+      },
+      {
+        id: "ws2_m11",
+        subject: "matematica",
+        topic: "Raiz Cúbica",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Uma empresa de embalagens fabrica caixas cúbicas para transporte de produtos. O departamento de logística informou que cada caixa deve ter volume exato de 343 cm³. Para produzir o molde, o operador precisa saber a medida da aresta de cada caixa. Qual é essa medida?',
+        options: ["5 cm", "6 cm", "7 cm", "8 cm", "9 cm"],
+        answer: 2,
+        explanation:
+          "Volume do cubo = aresta³. Portanto, aresta = ∛volume.\naresta = ∛343 = 7 cm.\nVerificação: 7³ = 7 × 7 × 7 = 49 × 7 = 343 ✓\nCubos perfeitos para memorizar: 1³=1; 2³=8; 3³=27; 4³=64; 5³=125; 6³=216; 7³=343; 8³=512; 9³=729; 10³=1.000.",
+      },
+      {
+        id: "ws2_m12",
+        subject: "matematica",
+        topic: "Raiz Quadrada — Propriedade do Produto",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Um campo de futebol society tem área de 144 m². Para calcular as dimensões, o treinador sabe que o comprimento é o quádruplo da largura. Porém, antes de qualquer cálculo, ele precisa resolver a expressão √(9 × 16) usando a propriedade da raiz de um produto. Qual é o resultado?',
+        options: ["√25 = 5", "√144 = 12", "3 × 4 = 12", "√25 = 5 e 3 × 4 = 12 são iguais", "√9 × √16 = 12"],
+        answer: 4,
+        explanation:
+          "Propriedade da raiz de um produto: √(a × b) = √a × √b.\n√(9 × 16) = √9 × √16 = 3 × 4 = 12.\nA alternativa E é a única que mostra o caminho correto (uso da propriedade) E o resultado correto (12). A alternativa B também dá 12, mas não usa a propriedade pedida.",
+      },
+      {
+        id: "ws2_m13",
+        subject: "matematica",
+        topic: "Notação Científica",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'A distância média da Terra ao Sol é de aproximadamente 150.000.000 km. Os astrônomos utilizam a notação científica para expressar essas grandezas de forma compacta. Como se escreve essa distância corretamente em notação científica?',
+        options: [
+          "150 × 10⁶ km",
+          "15 × 10⁷ km",
+          "1,5 × 10⁸ km",
+          "1,5 × 10⁷ km",
+          "0,15 × 10⁹ km",
+        ],
+        answer: 2,
+        explanation:
+          "Em notação científica: a × 10ⁿ, onde 1 ≤ a < 10.\n150.000.000 = 1,5 × 10⁸ (movemos a vírgula 8 casas para a esquerda).\nAs demais opções têm o coeficiente fora do intervalo [1; 10): 150, 15, 0,15 não satisfazem a condição 1 ≤ a < 10.",
+      },
+      {
+        id: "ws2_m14",
+        subject: "matematica",
+        topic: "Notação Científica",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Os vírus são organismos microscópicos extremamente pequenos. Um determinado vírus tem diâmetro de 2 × 10⁻⁷ metros. Expresse esse valor como número decimal:',
+        options: [
+          "0,2 m",
+          "0,02 m",
+          "0,000002 m",
+          "0,0000002 m",
+          "0,00000002 m",
+        ],
+        answer: 3,
+        explanation:
+          "2 × 10⁻⁷ = 2 × (1/10⁷) = 2/10.000.000 = 0,0000002 m.\nRegra prática: 10⁻⁷ significa mover a vírgula 7 casas para a esquerda a partir do 2:\n2 → 0,2 → 0,02 → 0,002 → 0,0002 → 0,00002 → 0,000002 → 0,0000002 (7 casas).",
+      },
+      {
+        id: "ws2_m15",
+        subject: "matematica",
+        topic: "Notação Científica — Operações",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'A velocidade da luz no vácuo é de aproximadamente 3 × 10⁸ m/s. Uma sonda espacial está a 9 × 10¹¹ metros da Terra. Sabendo que os sinais de rádio viajam na velocidade da luz, quanto tempo levará para um sinal enviado da Terra chegar até a sonda? Expresse o resultado em notação científica.',
+        options: [
+          "3 × 10³ s",
+          "3 × 10⁴ s",
+          "27 × 10² s",
+          "3 × 10² s",
+          "6 × 10³ s",
+        ],
+        answer: 0,
+        explanation:
+          "tempo = distância ÷ velocidade = (9 × 10¹¹) ÷ (3 × 10⁸).\nDivide os coeficientes: 9 ÷ 3 = 3.\nDivide as potências de 10: 10¹¹ ÷ 10⁸ = 10^(11−8) = 10³.\nResultado: 3 × 10³ segundos (= 3.000 segundos ≈ 50 minutos).",
+      },
+    ],
+  },
 };

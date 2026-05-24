@@ -1,15 +1,19 @@
 import { useState } from "react";
 import "./Planejamento.css";
 
-// Data de liberação do simulado da semana 1
-const WEEK1_SIMULADO_RELEASE = "2026-05-17";
+const SIMULADO_RELEASES = {
+  1: "2026-05-17",
+  2: "2026-05-24",
+};
 
 function getLocalDateStr(date) {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
 }
 
-function isSimuladoAvailable() {
-  return getLocalDateStr(new Date()) >= WEEK1_SIMULADO_RELEASE;
+function isSimuladoAvailable(weekNum) {
+  const release = SIMULADO_RELEASES[weekNum];
+  if (!release) return false;
+  return getLocalDateStr(new Date()) >= release;
 }
 
 // Baseado no histórico: PS2025 → 15/12/2024 | PS2026 → 23/11/2025
@@ -660,7 +664,7 @@ const weeks = [
 
 export default function Planejamento({ onNavigate }) {
   const [expanded, setExpanded] = useState(null);
-  const canStartSimulado = isSimuladoAvailable();
+  const canStartSimulado = isSimuladoAvailable(1);
   const daysLeft = getDaysLeft();
   const todayStr = TODAY.toLocaleDateString("pt-BR", {
     weekday: "long",
@@ -790,32 +794,42 @@ export default function Planejamento({ onNavigate }) {
                           {week.tip}
                         </div>
                       )}
-                      {week.num === 1 && (
-                        <div className={`simulado-semana-banner ${canStartSimulado ? "active" : ""}`}>
-                          <div className="ssb-left">
-                            <span className="ssb-icon">📝</span>
-                            <div>
-                              <div className="ssb-title">Simulado da Semana 1</div>
-                              <div className="ssb-desc">
-                                20 questões sobre os assuntos desta semana: Interpretação de Texto,
-                                Vocabulário, Conjuntos Numéricos, Frações e Decimais.
-                              </div>
-                              <div className="ssb-date">
-                                {canStartSimulado
-                                  ? "Disponível agora! Bom estudo!"
-                                  : "Disponível no domingo, 17/05/2026"}
+                      {[1, 2].includes(week.num) && (() => {
+                        const available = isSimuladoAvailable(week.num);
+                        const meta = {
+                          1: {
+                            title: "Simulado da Semana 1",
+                            desc: "20 questões: Interpretação de Texto, Vocabulário, Conjuntos Numéricos, Frações e Decimais.",
+                            dateLabel: "Disponível no domingo, 17/05/2026",
+                          },
+                          2: {
+                            title: "Simulado da Semana 2",
+                            desc: "30 questões: Classes de Palavras, Pronomes e Preposições, Potenciação, Radiciação e Notação Científica.",
+                            dateLabel: "Disponível no domingo, 24/05/2026",
+                          },
+                        }[week.num];
+                        return (
+                          <div className={`simulado-semana-banner ${available ? "active" : ""}`}>
+                            <div className="ssb-left">
+                              <span className="ssb-icon">📝</span>
+                              <div>
+                                <div className="ssb-title">{meta.title}</div>
+                                <div className="ssb-desc">{meta.desc}</div>
+                                <div className="ssb-date">
+                                  {available ? "Disponível agora! Bom estudo!" : meta.dateLabel}
+                                </div>
                               </div>
                             </div>
+                            <button
+                              className="btn btn-primary ssb-btn"
+                              disabled={!available}
+                              onClick={() => onNavigate("simuladoSemanal", { weekNum: week.num })}
+                            >
+                              {available ? "Iniciar Simulado →" : "Disponível no domingo"}
+                            </button>
                           </div>
-                          <button
-                            className="btn btn-primary ssb-btn"
-                            disabled={!canStartSimulado}
-                            onClick={() => onNavigate("simuladoSemanal", { weekNum: 1 })}
-                          >
-                            {canStartSimulado ? "Iniciar Simulado →" : "Disponível no domingo"}
-                          </button>
-                        </div>
-                      )}
+                        );
+                      })()}
                     </div>
                   )}
                 </div>
