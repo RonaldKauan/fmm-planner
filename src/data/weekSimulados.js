@@ -921,4 +921,581 @@ export const weekSimulados = {
       },
     ],
   },
+
+  // ══════════════════════════════════════════════════════════════════════════════
+  3: {
+    title: "Simulado — Semana 3",
+    subtitle:
+      "Ortografia · Acentuação Gráfica · Razão e Proporção · Regra de Três",
+    date: "2026-05-31",
+    questions: [
+      // ── LÍNGUA PORTUGUESA (15 questões) ────────────────────────────────────
+      // Tópicos: porquê/porque/por que/por quê · s/z/x/ch/g/j
+      //          Acentuação: proparoxítonas, paroxítonas, oxítonas, hiato
+
+      {
+        id: "ws3_p1",
+        subject: "portugues",
+        topic: "Ortografia — Porquê / Porque",
+        topicId: "p2",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Ana Paula está escrevendo uma carta ao primo explicando sua ausência da festa de aniversário:\n\n"Não fui à sua festa ___ estava me preparando para o processo seletivo da FMM. Dediquei o final de semana inteiro aos estudos."\n\nAssinale a forma CORRETA para preencher a lacuna:',
+        options: [
+          "porquê",
+          "por quê",
+          "porque",
+          "por que",
+          "pôr que",
+        ],
+        answer: 2,
+        explanation:
+          '"Porque" (conjunção causal/explicativa, sem acento, grafado junto) é usado para introduzir a causa ou explicação de algo — pode ser substituído por "pois". Nesse caso: "Não fui... pois estava me preparando." As demais formas:\n• "por que" = pronome interrogativo ou relativo\n• "por quê" = no final de frases interrogativas\n• "porquê" = substantivo (o motivo)',
+      },
+      {
+        id: "ws3_p2",
+        subject: "portugues",
+        topic: "Ortografia — Por que (interrogativo)",
+        topicId: "p2",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'A professora de Português chegou à sala e, vendo que metade da turma não havia entregado a tarefa, perguntou diretamente:\n\n"___ vocês não fizeram o exercício que passei na semana passada?"\n\nAssinale a forma CORRETA para preencher a lacuna desta pergunta direta:',
+        options: [
+          "Porque",
+          "Porquê",
+          "Por quê",
+          "Por que",
+          "Por-que",
+        ],
+        answer: 3,
+        explanation:
+          '"Por que" (grafado separado, sem acento) é usado em perguntas diretas e indiretas — funciona como pronome interrogativo equivalente a "por qual motivo". Aqui a professora formula uma pergunta direta: "Por que [razão] vocês não fizeram..." Se estivesse no final da frase ("Você não fez a tarefa por quê?"), usaríamos "por quê" com acento.',
+      },
+      {
+        id: "ws3_p3",
+        subject: "portugues",
+        topic: "Ortografia — Porquê (substantivo)",
+        topicId: "p2",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Em uma dissertação sobre fracasso escolar, o aluno escreveu:\n\n"Precisamos entender o ___ do abandono escolar precoce: ele envolve fatores econômicos, sociais e pedagógicos que não podem ser ignorados."\n\nAssinale a forma CORRETA que preenche a lacuna:',
+        options: [
+          "por quê",
+          "por que",
+          "porque",
+          "porquê",
+          "pôrquê",
+        ],
+        answer: 3,
+        explanation:
+          '"Porquê" (grafado junto, com acento circunflexo) é um SUBSTANTIVO que significa "motivo" ou "razão". Reconhece-se pelo artigo "o" que o antecede: "o porquê" = "o motivo". Outros exemplos: "Ela não quitou suas dívidas sem explicar o porquê." Sempre que puder substituir por "o motivo" ou "a razão", use "porquê" (substantivo).',
+      },
+      {
+        id: "ws3_p4",
+        subject: "portugues",
+        topic: "Ortografia — Por quê (final de frase)",
+        topicId: "p2",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Leia este diálogo entre dois estudantes do cursinho preparatório:\n\n— Fui eliminado na primeira fase do processo seletivo da FMM.\n— Nossa, sério? Você sabe ___?\n\nAssinale a forma CORRETA para preencher a lacuna, que aparece no FINAL da frase interrogativa:',
+        options: [
+          "por que",
+          "porquê",
+          "porque",
+          "por quê",
+          "pôr quê",
+        ],
+        answer: 3,
+        explanation:
+          '"Por quê" (grafado separado, COM acento circunflexo) é utilizado quando aparece no final de frases interrogativas ou quando está isolado. O acento serve para marcar que a palavra está em posição final, sem nenhum substantivo após ela. Compare: "Por que você saiu?" (meio da frase) vs. "Você saiu por quê?" (final de frase). A regra: se vier antes de um ponto final (após a interrogação), use "por quê".',
+      },
+      {
+        id: "ws3_p5",
+        subject: "portugues",
+        topic: "Ortografia — Porquê / Porque / Por que / Por quê",
+        topicId: "p2",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Leia o texto com as quatro lacunas numeradas:\n\n"[1]___ a Amazônia é tão importante para o clima global? Muitos pesquisadores questionam [2]___ preservá-la custa tão caro aos cofres públicos. A resposta é direta: [3]___ ela regula o ciclo das chuvas em todo o continente. O [4]___ de investir na floresta é simples — sem ela, a vida como conhecemos estaria ameaçada."\n\nAssinale a sequência CORRETA para [1], [2], [3] e [4]:',
+        options: [
+          "Por que / por que / porque / porquê",
+          "Porque / por que / porque / por quê",
+          "Por quê / porquê / porque / porquê",
+          "Por que / porque / porque / porquê",
+          "Porquê / por que / por quê / porque",
+        ],
+        answer: 0,
+        explanation:
+          '[1] "Por que" → pergunta direta (= "por qual motivo a Amazônia é...") — pronome interrogativo.\n[2] "por que" → pergunta indireta embutida ("questionam por que...") — pronome interrogativo/relativo.\n[3] "porque" → conjunção causal (= "pois ela regula...") — responde à pergunta anterior.\n[4] "porquê" → substantivo precedido do artigo "o" (= "o motivo de investir") — substantivo.\nDica: identifique a função de cada ocorrência antes de escolher a forma.',
+      },
+      {
+        id: "ws3_p6",
+        subject: "portugues",
+        topic: "Ortografia — x / ch",
+        topicId: "p2",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Durante uma aula sobre ortografia, a professora listou no quadro grupos de palavras para que os alunos as copiassem corretamente. Assinale a alternativa em que TODAS as palavras estão grafadas corretamente:',
+        options: [
+          '"enxada, cheiro, caxumba"',
+          '"enchada, cheiro, caxumba"',
+          '"enxada, xeiro, caxumba"',
+          '"enxada, cheiro, cachúmba"',
+          '"enchada, xeiro, caxumba"',
+        ],
+        answer: 0,
+        explanation:
+          '"Enxada" (ferramenta agrícola) → x; "cheiro" (odor) → ch; "caxumba" (doença viral) → x. Algumas pistas ortográficas úteis:\n• Após ditongos (ai, ei, ou), geralmente usa-se x: "baixo", "peixe", "frouxo".\n• Palavras de origem tupi frequentemente usam x: "xarope", "xique-xique".\n• Palavras com som inicial de /ʃ/ vindas do francês/português arcaico usam ch: "chave", "cheio", "chuva".',
+      },
+      {
+        id: "ws3_p7",
+        subject: "portugues",
+        topic: "Ortografia — s / z",
+        topicId: "p2",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Em seu caderno de redação, um aluno listou palavras formadas com os sufixos -eza (qualidade) e -oso (característica). A confusão entre "s" e "z" é uma das mais comuns em provas de seleção. Assinale a alternativa que apresenta uma palavra com ERRO ortográfico:',
+        options: [
+          '"beleza"',
+          '"organizar"',
+          '"perigoso"',
+          '"riquesa"',
+          '"certeza"',
+        ],
+        answer: 3,
+        explanation:
+          '"Riquesa" está ERRADA — a forma correta é "riqueza" (com z). Regras úteis:\n• Sufixo -eza (que indica qualidade ou estado abstrato): beleza, tristeza, dureza, firmeza, riqueza — sempre com z.\n• Sufixo -oso (que indica posse de algo): gostoso, perigoso, famoso — com s.\n• Sufixo -izar (verbos): organizar, utilizar, realizar — com z.\n• Sufixo -esa (gentílicos femininos): inglesa, portuguesa, japonesa — com s.',
+      },
+      {
+        id: "ws3_p8",
+        subject: "portugues",
+        topic: "Ortografia — g / j",
+        topicId: "p2",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'O uso de "g" e "j" gera dúvidas porque ambos podem ter o mesmo som diante de "e" e "i". Assinale a alternativa em que TODAS as palavras estão grafadas corretamente:',
+        options: [
+          '"girafa, jiló, jiboia"',
+          '"jirafa, jiló, jiboia"',
+          '"girafa, giló, jiboia"',
+          '"girafa, jiló, giboia"',
+          '"jirafa, giló, giboia"',
+        ],
+        answer: 0,
+        explanation:
+          '"Girafa" (animal) → g; "jiló" (vegetal) → j; "jiboia" (cobra) → j. Dicas para distinguir g de j:\n• Palavras de origem árabe, africana ou indígena tendem a usar j: jiló, jiboia, jacaré.\n• Substantivos e adjetivos terminados em -agem, -igem, -ugem usam g: viagem, origem, ferrugem.\n• Palavras derivadas de outras com g ou j mantêm a letra original: "viagem" → "viajar" (j), "giro" → "girar" (g).',
+      },
+      {
+        id: "ws3_p9",
+        subject: "portugues",
+        topic: "Ortografia — -ção / -ssão / -são",
+        topicId: "p2",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'A formação de substantivos com os sufixos -ção, -ssão e -são provoca frequentemente erros de grafia. Assinale a alternativa em que TODAS as palavras estão corretamente grafadas:',
+        options: [
+          '"atenção, discussão, divisão"',
+          '"atenssão, discussão, divisão"',
+          '"atenção, discusão, divisão"',
+          '"atenção, discussão, divissão"',
+          '"atenção, discussão, divissom"',
+        ],
+        answer: 0,
+        explanation:
+          '"Atenção" (de atentar → -ção); "discussão" (de discutir → -ssão, com ss); "divisão" (de dividir → -são). Pistas práticas:\n• Verbos em -ar costumam gerar substantivos em -ção: cantar → canção, atentar → atenção.\n• Verbos em -tir e -dir costumam gerar -são: dividir → divisão, decidir → decisão.\n• Verbos em -cutir e -mitir costumam gerar -ssão: discutir → discussão, admitir → admissão.',
+      },
+      {
+        id: "ws3_p10",
+        subject: "portugues",
+        topic: "Ortografia — Revisão Geral",
+        topicId: "p2",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Leia o trecho de uma reportagem sobre turismo na Amazônia:\n\n"A EXCURSÃO ao encontro das águas foi EXCEPCIONAL. Os turistas ficaram ENTUSIASMADOS com as ESCULTURAS de barro expostas nas feiras e com as EXPLIÇÕES dos guias locais sobre a história ribeirinha."\n\nO trecho contém um erro ortográfico. Assinale a palavra grafada INCORRETAMENTE:',
+        options: [
+          "EXCURSÃO",
+          "EXCEPCIONAL",
+          "ENTUSIASMADOS",
+          "ESCULTURAS",
+          "EXPLIÇÕES",
+        ],
+        answer: 4,
+        explanation:
+          '"EXPLIÇÕES" está ERRADA — a forma correta é "EXPLICAÇÕES" (substantivo derivado do verbo "explicar", com o sufixo -ção e a manutenção da raiz "explic-"). As demais palavras estão corretas: excursão (x+c), excepcional (xc+pc), entusiasmados (th suprimido do grego, escrito com t), esculturas (esc). Erros com o sufixo -ção são muito comuns quando o estudante omite sílabas internas da palavra.',
+      },
+      {
+        id: "ws3_p11",
+        subject: "portugues",
+        topic: "Acentuação — Proparoxítonas",
+        topicId: "p3",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Em Língua Portuguesa, as proparoxítonas são palavras cuja sílaba tônica (mais forte) é a ANTEPENÚLTIMA. Uma regra absoluta: todas as proparoxítonas são SEMPRE acentuadas, sem exceção. Assinale a alternativa que contém APENAS palavras proparoxítonas:',
+        options: [
+          '"médico, lâmpada, ótimo"',
+          '"café, lâmpada, ótimo"',
+          '"médico, mesa, ótimo"',
+          '"médico, lâmpada, você"',
+          '"médico, lâmpada, difícil"',
+        ],
+        answer: 0,
+        explanation:
+          '"Médico" = MÉ-di-co (3 sílabas, tônica na 1ª = antepenúltima) ✓ proparoxítona.\n"Lâmpada" = LÂM-pa-da (tônica na antepenúltima) ✓ proparoxítona.\n"Ótimo" = Ó-ti-mo (tônica na antepenúltima) ✓ proparoxítona.\nAnálise dos erros nas outras opções: "café" = ca-FÉ → oxítona; "mesa" = ME-sa → paroxítona; "você" = vo-CÊ → oxítona; "difícil" = di-FÍ-cil → paroxítona (tônica na penúltima). Lembre-se: proparoxítonas são sempre acentuadas — não há exceção.',
+      },
+      {
+        id: "ws3_p12",
+        subject: "portugues",
+        topic: "Acentuação — Oxítonas",
+        topicId: "p3",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'As oxítonas são palavras com última sílaba tônica. Porém, apenas algumas são acentuadas: as terminadas em -a(s), -e(s), -o(s), -em e -ens. Uma turma de alunos discutia sobre quais palavras deveriam ter acento. Assinale a alternativa em que TODAS as oxítonas estão acentuadas corretamente:',
+        options: [
+          '"café, avó, parabéns"',
+          '"cafe, avó, parabéns"',
+          '"café, avo, parabéns"',
+          '"café, avó, parabens"',
+          '"cafe, avo, parabens"',
+        ],
+        answer: 0,
+        explanation:
+          '"Café" = ca-FÉ → oxítona terminada em -e → acentuada ✓.\n"Avó" = a-VÓ → oxítona terminada em -o → acentuada ✓.\n"Parabéns" = pa-ra-BÉNS → oxítona terminada em -ens → acentuada ✓.\nAnálise: as demais alternativas omitem ao menos um acento obrigatório. Oxítonas que NÃO se acentuam: terminadas em consoantes comuns, como "funil", "rapaz", "hotel" (exceção: há regras para terminação -em como "também" e -ens como "parabéns").',
+      },
+      {
+        id: "ws3_p13",
+        subject: "portugues",
+        topic: "Acentuação — Paroxítonas",
+        topicId: "p3",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'As paroxítonas têm a penúltima sílaba tônica. Elas NÃO são acentuadas quando terminam em -a, -e, -o, -em, -ens (ex.: "mesa", "come", "livro", "jovem"). São acentuadas quando terminam em -l, -r, -x, -n, -ps, -i(s), -us, -um, -uns, -ã(s), -ão(s). Identifique a alternativa em que há um acento INCORRETO:',
+        options: [
+          '"fácil" — paroxítona terminada em -l, acento correto',
+          '"táxi" — paroxítona terminada em -i, acento correto',
+          '"jovém" — paroxítona terminada em -em, acento incorreto: deve ser "jovem"',
+          '"álbum" — paroxítona terminada em -um, acento correto',
+          '"nível" — paroxítona terminada em -l, acento correto',
+        ],
+        answer: 2,
+        explanation:
+          '"Jovém" está ERRADO — a forma correta é "jovem" (sem acento). Paroxítonas terminadas em -em ou -ens NÃO recebem acento: "jovem", "nuvem", "viagem", "imagem". O acento seria justificado apenas se a palavra terminasse em -l, -r, -i, -us, -um etc. Compare: "fácil" (termina em -l → acentuada ✓), "álbum" (termina em -um → acentuada ✓), mas "jovem" (termina em -em → sem acento ✓).',
+      },
+      {
+        id: "ws3_p14",
+        subject: "portugues",
+        topic: "Acentuação — Hiato",
+        topicId: "p3",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'O hiato ocorre quando duas vogais adjacentes pertencem a sílabas diferentes (ex.: sa-í-da, pa-ís, ba-ú). A regra do acento no hiato: o "i" e o "u" são acentuados quando formam uma sílaba sozinhos (ou acompanhados de -s) e a sílaba anterior é átona. Assinale a alternativa em que TODAS as palavras com hiato estão corretamente acentuadas:',
+        options: [
+          '"saída, país, baú"',
+          '"saida, país, baú"',
+          '"saída, pais, baú"',
+          '"saída, país, bau"',
+          '"saida, pais, bau"',
+        ],
+        answer: 0,
+        explanation:
+          '"Saída" = sa-Í-da → "i" forma sílaba sozinho após sílaba átona "sa" → acentuado ✓.\n"País" = pa-Ís → "i" seguido de -s forma sílaba após sílaba átona "pa" → acentuado ✓.\n"Baú" = ba-Ú → "u" forma sílaba sozinho após sílaba átona "ba" → acentuado ✓.\nRegra para NÃO acentuar o hiato: quando o i/u é seguido de -nh (rainha, moinho) ou quando a sílaba anterior é tônica (saudade = sau-DA-de, não há acento no "a").',
+      },
+      {
+        id: "ws3_p15",
+        subject: "portugues",
+        topic: "Acentuação — Revisão Geral",
+        topicId: "p3",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'O professor escreveu cinco frases no quadro e pediu que os alunos identificassem a que continha um ERRO de acentuação. Assinale-a:',
+        options: [
+          '"O médico receitou repouso absoluto ao paciente."',
+          '"O ônibus chegou com atraso enorme ao terminal."',
+          '"O aluno leu o livro até o capítulo final."',
+          '"Aquele jovém estudante passou em primeiro lugar."',
+          '"O baú de madeira estava cheio de recordações."',
+        ],
+        answer: 3,
+        explanation:
+          '"Jovém" está ERRADO — deve ser "jovem" (sem acento). Como paroxítona terminada em -em, a palavra não recebe acento gráfico. Análise das demais:\n• "médico" → proparoxítona ✓.\n• "ônibus" → proparoxítona ✓.\n• "capítulo" → proparoxítona ✓; "final" → oxítona terminada em -l, mas oxítonas em -l não são acentuadas (ao contrário das paroxítonas em -l) ✓.\n• "baú" → hiato, u tônico ✓; "recordações" → oxítona em -ões ✓.\nEsta questão resume os tipos de acentuação mais cobrados em provas de seleção.',
+      },
+
+      // ── MATEMÁTICA (15 questões) ────────────────────────────────────────────
+      // Tópicos: Razão e proporção · Regra de três simples (direta e inversa)
+      //          Grandezas proporcionais · Regra de três composta
+
+      {
+        id: "ws3_m1",
+        subject: "matematica",
+        topic: "Razão",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'No processo seletivo da FMM, uma candidata acertou 60 das 80 questões da prova. Satisfeita com o resultado, ela calculou a razão entre o número de acertos e o total de questões para expressar seu aproveitamento de forma simplificada. Qual é essa razão na forma IRREDUTÍVEL?',
+        options: ["60/80", "3/4", "2/3", "4/5", "1/2"],
+        answer: 1,
+        explanation:
+          "Razão é a divisão entre duas grandezas: acertos ÷ total = 60 ÷ 80.\nPara simplificar, encontre o MDC(60, 80) = 20.\n60 ÷ 20 = 3 e 80 ÷ 20 = 4 → razão irredutível = 3/4.\nInterpretação: a candidata acertou 3 em cada 4 questões, ou seja, 75% da prova. Razão e porcentagem estão diretamente ligadas: 3/4 = 0,75 = 75%.",
+      },
+      {
+        id: "ws3_m2",
+        subject: "matematica",
+        topic: "Proporção — Quarta Proporcional",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Uma confeiteira de Manaus tem uma receita especial de bolo que pede 3 xícaras de farinha para cada 2 xícaras de açúcar. Para fazer um bolo maior para a festa da escola, ela decidiu usar 9 xícaras de farinha, mantendo a mesma proporção original. Quantas xícaras de açúcar serão necessárias?',
+        options: ["4 xícaras", "5 xícaras", "6 xícaras", "7 xícaras", "8 xícaras"],
+        answer: 2,
+        explanation:
+          "Monta-se a proporção: farinha/açúcar = constante.\n3/2 = 9/x → aplica a propriedade fundamental: 3 × x = 2 × 9 → 3x = 18 → x = 6 xícaras.\nPropriedade fundamental das proporções: o produto dos meios é igual ao produto dos extremos (produto cruzado). Em a/b = c/d, temos a × d = b × c.",
+      },
+      {
+        id: "ws3_m3",
+        subject: "matematica",
+        topic: "Proporção — Escala",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Um cartógrafo elaborou um mapa do Amazonas na escala 1:5.000.000, ou seja, cada 1 cm no mapa representa 5.000.000 cm na realidade. Medindo o mapa, o aluno encontrou 18 cm de distância entre Manaus e Tefé. Qual é a distância REAL entre essas cidades, em quilômetros?',
+        options: ["90 km", "450 km", "900 km", "9.000 km", "90.000 km"],
+        answer: 2,
+        explanation:
+          "Distância real = distância no mapa × escala = 18 cm × 5.000.000 = 90.000.000 cm.\nConversão para km: 90.000.000 cm ÷ 100 (cm→m) ÷ 1.000 (m→km) = 900 km.\nAlternativamente: 5.000.000 cm = 50.000 m = 50 km por cm. Então 18 × 50 = 900 km.\nEscalas são proporções diretas: quanto maior a medida no mapa, maior a distância real.",
+      },
+      {
+        id: "ws3_m4",
+        subject: "matematica",
+        topic: "Proporção — Propriedade Fundamental",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Em um laboratório de ciências, dois reagentes devem ser misturados sempre na proporção 4:x = 12:21 para que a reação seja segura. O técnico precisa descobrir o valor de x antes de realizar o experimento. Aplicando a propriedade fundamental das proporções, qual é o valor de x?',
+        options: ["4", "6", "7", "8", "9"],
+        answer: 2,
+        explanation:
+          "Propriedade fundamental: em a/b = c/d, o produto dos meios é igual ao produto dos extremos: a × d = b × c.\n4/x = 12/21 → 4 × 21 = x × 12 → 84 = 12x → x = 84 ÷ 12 = 7.\nVerificação: 4/7 = 12/21? → 4 × 21 = 84 e 7 × 12 = 84 ✓\nO valor x = 7 garante que a proporção 4:7 = 12:21 seja válida.",
+      },
+      {
+        id: "ws3_m5",
+        subject: "matematica",
+        topic: "Divisão Proporcional",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'A turma de preparatório para o processo seletivo da FMM tem 40 alunos. A coordenadora informou que a proporção entre meninas e meninos é de 3:2. Para organizar grupos separados de estudo, ela precisa saber quantas meninas há na turma. Qual é esse número?',
+        options: ["16 meninas", "20 meninas", "24 meninas", "28 meninas", "30 meninas"],
+        answer: 2,
+        explanation:
+          "A razão 3:2 significa que, para cada 5 alunos (3 + 2), 3 são meninas e 2 são meninos.\nTotal de partes: 3 + 2 = 5 partes.\nValor de cada parte: 40 ÷ 5 = 8 alunos por parte.\nMeninas: 3 × 8 = 24 meninas.\nMeninos: 2 × 8 = 16 meninos.\nVerificação: 24 + 16 = 40 ✓ e 24/16 = 3/2 ✓",
+      },
+      {
+        id: "ws3_m6",
+        subject: "matematica",
+        topic: "Regra de Três Simples — Direta",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Um veículo de passeio consome, em média, 10 litros de gasolina para percorrer 150 km na estrada AM-010, que liga Manaus a Itacoatiara. Mantendo o mesmo consumo, quantos litros serão necessários para percorrer 450 km nessa mesma rodovia?',
+        options: ["20 L", "25 L", "30 L", "35 L", "40 L"],
+        answer: 2,
+        explanation:
+          "Grandezas diretamente proporcionais: quanto mais quilômetros, mais litros.\nMonta-se a regra de três:\n10 L → 150 km\nx L → 450 km\nx = (10 × 450) ÷ 150 = 4.500 ÷ 150 = 30 L.\nVerificação: 30/10 = 3 e 450/150 = 3 — mesma razão ✓\nDica: identifique se as grandezas crescem juntas (direta) ou uma cresce enquanto a outra diminui (inversa) antes de montar a proporção.",
+      },
+      {
+        id: "ws3_m7",
+        subject: "matematica",
+        topic: "Grandezas Inversamente Proporcionais",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Uma equipe de 6 pintores leva 12 dias para pintar todas as salas de uma escola de Manaus, trabalhando em ritmo constante. Com o prazo se aproximando, o diretor decidiu contratar mais 3 pintores (totalizando 9), mantendo o mesmo ritmo de trabalho. Em quantos dias os 9 pintores concluirão o serviço?',
+        options: ["6 dias", "8 dias", "9 dias", "10 dias", "18 dias"],
+        answer: 1,
+        explanation:
+          "Grandezas inversamente proporcionais: quanto mais pintores, menos dias (a mesma quantidade de trabalho se distribui entre mais pessoas).\nRegra de três inversa — inverte-se um dos termos:\n6 pintores → 12 dias\n9 pintores → x dias\n6 × 12 = 9 × x → 72 = 9x → x = 8 dias.\nVerificação: 6 × 12 = 72 horas-homem totais e 9 × 8 = 72 ✓\nDica: em grandezas inversas, o produto das grandezas correspondentes é sempre constante.",
+      },
+      {
+        id: "ws3_m8",
+        subject: "matematica",
+        topic: "Regra de Três Simples — Aplicação",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'A equipe de logística da FMM precisa confeccionar 560 kits de boas-vindas para os novos alunos aprovados. Uma gráfica local produz 200 kits por dia com 5 máquinas operando. O gestor quer saber quantas máquinas serão necessárias para produzir todos os 560 kits em um único dia, mantendo a mesma produtividade por máquina.',
+        options: ["10 máquinas", "12 máquinas", "14 máquinas", "16 máquinas", "20 máquinas"],
+        answer: 2,
+        explanation:
+          "Grandezas diretamente proporcionais: mais máquinas → mais kits produzidos.\nRegra de três direta:\n5 máquinas → 200 kits\nx máquinas → 560 kits\nx = (5 × 560) ÷ 200 = 2.800 ÷ 200 = 14 máquinas.\nVerificação: 14/5 = 2,8 e 560/200 = 2,8 — mesma razão ✓\nProdutividade por máquina: 200 ÷ 5 = 40 kits/máquina/dia. Então 560 ÷ 40 = 14 máquinas.",
+      },
+      {
+        id: "ws3_m9",
+        subject: "matematica",
+        topic: "Identificação de Grandezas Proporcionais",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'A turma do preparatório estudou grandezas diretamente e inversamente proporcionais. Analise os pares de grandezas abaixo e assinale aquele que representa grandezas INVERSAMENTE proporcionais:',
+        options: [
+          "Distância percorrida e consumo de combustível (velocidade constante)",
+          "Número de operários e tempo para terminar uma construção (mesmo ritmo)",
+          "Número de alunos matriculados e total de mensalidades arrecadadas",
+          "Horas estudadas por dia e pontuação obtida na prova",
+          "Quantidade de produtos comprados e valor total da compra",
+        ],
+        answer: 1,
+        explanation:
+          "Grandezas inversamente proporcionais: quando uma aumenta, a outra diminui, mantendo o produto constante.\nB) Mais operários → menos tempo para terminar a obra → inversamente proporcional ✓.\nAnálise das outras:\nA) Mais distância → mais combustível → diretamente proporcional.\nC) Mais alunos → mais mensalidades → diretamente proporcional.\nD) Mais horas de estudo → tendência a maior pontuação → diretamente proporcional.\nE) Mais produtos → maior valor total → diretamente proporcional.",
+      },
+      {
+        id: "ws3_m10",
+        subject: "matematica",
+        topic: "Regra de Três Simples Inversa — Aplicação",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Na casa ribeirinha de uma família do interior do Amazonas, uma torneira leva 3 horas para encher completamente um tanque de água. Para agilizar o processo durante a seca, a família instalou 5 torneiras idênticas, todas abertas ao mesmo tempo, enchendo o mesmo tanque. Quanto tempo as 5 torneiras levarão para encher o tanque?',
+        options: [
+          "15 minutos",
+          "24 minutos",
+          "36 minutos",
+          "45 minutos",
+          "1 hora e 30 minutos",
+        ],
+        answer: 2,
+        explanation:
+          "Inversamente proporcional: mais torneiras → menos tempo.\nRegra de três inversa:\n1 torneira → 3 horas = 180 minutos\n5 torneiras → x minutos\n1 × 180 = 5 × x → x = 36 minutos.\nRaciocínio alternativo: 1 torneira enche 1/3 do tanque por hora. 5 torneiras enchem 5/3 por hora. Tempo = 1 ÷ (5/3) = 3/5 hora = 36 minutos.\nVerificação: 1 × 180 = 180 e 5 × 36 = 180 — produto constante ✓",
+      },
+      {
+        id: "ws3_m11",
+        subject: "matematica",
+        topic: "Regra de Três Composta — Introdução",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Dois pedreiros constroem um muro em 6 dias, trabalhando 8 horas por dia. Mantendo o mesmo ritmo individual de trabalho, quantos dias serão necessários para 3 pedreiros construírem o mesmo muro, se cada um trabalhar apenas 4 horas por dia?',
+        options: ["4 dias", "6 dias", "8 dias", "10 dias", "12 dias"],
+        answer: 2,
+        explanation:
+          "Regra de três composta com 3 grandezas: pedreiros, horas/dia e dias.\nTrabalho total = 2 pedreiros × 6 dias × 8 h/dia = 96 horas-homem.\nNova situação: 3 pedreiros × x dias × 4 h/dia = 96.\n12x = 96 → x = 8 dias.\nMétodo sistemático da regra de três composta:\n• Pedreiros: 2 → 3 (mais pedreiros = menos dias = INVERSA)\n• Horas/dia: 8 → 4 (menos horas = mais dias = INVERSA)\nx = 6 × (2/3) × (8/4) = 6 × 2/3 × 2 = 8 dias ✓",
+      },
+      {
+        id: "ws3_m12",
+        subject: "matematica",
+        topic: "Regra de Três Composta — Produção",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Uma fazenda familiar no interior do Amazonas colhe 1.500 kg de mandioca em 3 dias com 5 trabalhadores. O dono da fazenda fechou um contrato maior e precisa entregar 4.000 kg. Mantendo o mesmo ritmo de trabalho, quantos dias serão necessários para 10 trabalhadores produzirem essa quantidade?',
+        options: ["2 dias", "3 dias", "4 dias", "5 dias", "6 dias"],
+        answer: 2,
+        explanation:
+          "Produtividade = 1.500 kg ÷ (5 trabalhadores × 3 dias) = 100 kg/trabalhador/dia.\nTempo necessário = 4.000 kg ÷ (10 trabalhadores × 100 kg/trabalhador/dia) = 4.000 ÷ 1.000 = 4 dias.\nMétodo da regra de três composta:\n• Produção: 1.500 → 4.000 (direta, mais produção = mais dias)\n• Trabalhadores: 5 → 10 (inversa, mais trabalhadores = menos dias)\nx = 3 × (4.000/1.500) × (5/10) = 3 × 8/3 × 1/2 = 4 dias ✓",
+      },
+      {
+        id: "ws3_m13",
+        subject: "matematica",
+        topic: "Regra de Três Composta — Gráfica",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Em uma gráfica de Manaus, 4 máquinas de impressão produzem 6.000 panfletos de divulgação em 5 horas. O gerente recebeu um novo pedido urgente de 9.000 panfletos e aumentou a frota para 6 máquinas, mantendo a mesma produtividade. Em quantas horas as 6 máquinas concluirão o novo pedido?',
+        options: ["2 horas", "3 horas", "4 horas", "5 horas", "6 horas"],
+        answer: 3,
+        explanation:
+          "Produtividade = 6.000 ÷ (4 máquinas × 5 horas) = 300 panfletos/(máquina × hora).\nTempo = 9.000 ÷ (6 máquinas × 300) = 9.000 ÷ 1.800 = 5 horas.\nMétodo da regra de três composta:\n• Panfletos: 6.000 → 9.000 (direta: mais panfletos = mais horas)\n• Máquinas: 4 → 6 (inversa: mais máquinas = menos horas)\nx = 5 × (9.000/6.000) × (4/6) = 5 × 3/2 × 2/3 = 5 horas ✓",
+      },
+      {
+        id: "ws3_m14",
+        subject: "matematica",
+        topic: "Grandezas Proporcionais — Classificação",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Uma turma do cursinho preparatório analisou diversas situações do cotidiano para identificar o tipo de proporcionalidade. Assinale a alternativa que descreve uma situação de grandezas DIRETAMENTE proporcionais:',
+        options: [
+          "Número de alunos que participam de uma vaquinha e o valor que cada um deve pagar (meta fixa)",
+          "Velocidade de um barco e o tempo para percorrer determinado trecho do Rio Negro",
+          "Número de dias trabalhados e o salário recebido por um funcionário com diária fixa",
+          "Quantidade de operários e o tempo para construir um porto fluvial (mesmo ritmo)",
+          "Número de torneiras abertas e o tempo para encher um reservatório",
+        ],
+        answer: 2,
+        explanation:
+          "C) Mais dias trabalhados → maior salário recebido → grandezas crescem juntas → DIRETAMENTE proporcional ✓.\nAnálise das demais:\nA) Mais alunos contribuindo → cada um paga menos → INVERSAMENTE proporcional.\nB) Maior velocidade → menos tempo para o percurso → INVERSAMENTE proporcional.\nD) Mais operários → menos tempo para a obra → INVERSAMENTE proporcional.\nE) Mais torneiras abertas → menos tempo para encher → INVERSAMENTE proporcional.\nRegra: se as duas grandezas crescem ou diminuem juntas = direta; se uma cresce e a outra diminui = inversa.",
+      },
+      {
+        id: "ws3_m15",
+        subject: "matematica",
+        topic: "Regra de Três Composta — Desafio",
+        topicId: "m4",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Uma empresa de transporte fluvial possui 4 balsas que, fazendo 3 viagens por dia, transportam 1.200 toneladas de carga em 10 dias. A empresa assinou um novo contrato para transportar 3.600 toneladas. Para cumprir o prazo com eficiência, aumentou sua frota para 6 balsas, cada uma realizando 4 viagens por dia. Em quantos dias a empresa concluirá o transporte do novo contrato?',
+        options: ["8 dias", "10 dias", "12 dias", "15 dias", "20 dias"],
+        answer: 3,
+        explanation:
+          "Passo 1 — calcule a produtividade por balsa por viagem:\n1.200 ton ÷ (4 balsas × 3 viagens/dia × 10 dias) = 1.200 ÷ 120 = 10 ton/balsa/viagem.\n\nPasso 2 — calcule o tempo para a nova situação:\n6 balsas × 4 viagens/dia × 10 ton/viagem = 240 ton/dia.\nTempo = 3.600 ÷ 240 = 15 dias.\n\nMétodo da regra de três composta:\n• Carga: 1.200 → 3.600 (direta)\n• Balsas: 4 → 6 (inversa)\n• Viagens/dia: 3 → 4 (inversa)\nx = 10 × (3.600/1.200) × (4/6) × (3/4) = 10 × 3 × 2/3 × 3/4 = 15 dias ✓",
+      },
+    ],
+  },
 };

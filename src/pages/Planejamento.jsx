@@ -4,6 +4,7 @@ import "./Planejamento.css";
 const SIMULADO_RELEASES = {
   1: "2026-05-17",
   2: "2026-05-24",
+  3: "2026-05-31",
 };
 
 function getLocalDateStr(date) {
@@ -794,7 +795,7 @@ export default function Planejamento({ onNavigate }) {
                           {week.tip}
                         </div>
                       )}
-                      {[1, 2].includes(week.num) && (() => {
+                      {[1, 2, 3].includes(week.num) && (() => {
                         const available = isSimuladoAvailable(week.num);
                         const meta = {
                           1: {
@@ -806,6 +807,11 @@ export default function Planejamento({ onNavigate }) {
                             title: "Simulado da Semana 2",
                             desc: "30 questões: Classes de Palavras, Pronomes e Preposições, Potenciação, Radiciação e Notação Científica.",
                             dateLabel: "Disponível no domingo, 24/05/2026",
+                          },
+                          3: {
+                            title: "Simulado da Semana 3",
+                            desc: "30 questões: Ortografia (porquê/porque/s/z/x/ch/g/j), Acentuação Gráfica, Razão e Proporção, Regra de Três.",
+                            dateLabel: "Disponível no domingo, 31/05/2026",
                           },
                         }[week.num];
                         return (
