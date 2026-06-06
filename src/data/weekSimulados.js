@@ -1498,4 +1498,537 @@ export const weekSimulados = {
       },
     ],
   },
+
+  4: {
+    title: "Simulado — Semana 4",
+    subtitle: "Concordância Verbal e Nominal · Porcentagem · Juros Simples e Compostos",
+    date: "2026-06-06", // sábado da semana 4
+    questions: [
+      // ── LÍNGUA PORTUGUESA — CONCORDÂNCIA ──────────────────────────────────────
+      {
+        id: "ws4_p1",
+        subject: "portugues",
+        topic: "Concordância Verbal — Sujeito Composto",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Assinale a alternativa em que a concordância verbal está correta:\n\nA frase trata de sujeito composto anteposto ao verbo.',
+        options: [
+          "O aluno e a professora chegaram juntos à reunião.",
+          "O aluno e a professora chegou juntos à reunião.",
+          "O aluno e a professora chegaram junto à reunião.",
+          "O aluno ou a professora chegaram à reunião.",
+          "O aluno e a professora chegou à reunião.",
+        ],
+        answer: 0,
+        explanation:
+          "Com sujeito composto anteposto ao verbo formado por mais de um núcleo, o verbo vai para o plural: 'O aluno e a professora chegaram'. A alternativa D usa 'ou' (sujeito alternativo), que pede singular. As demais cometem erro de concordância usando o verbo no singular com sujeito plural.",
+      },
+      {
+        id: "ws4_p2",
+        subject: "portugues",
+        topic: "Concordância Verbal — Sujeito Coletivo",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          '"A multidão _______ em direção à saída assim que o alarme soou."\n\nA forma verbal que preenche corretamente a lacuna é:',
+        options: [
+          "correram",
+          "correu",
+          "correstes",
+          "corriam",
+          "correrem",
+        ],
+        answer: 1,
+        explanation:
+          "'Multidão' é um substantivo coletivo no singular, portanto o verbo fica no singular: 'a multidão correu'. Se houvesse especificação do coletivo (ex.: 'a multidão de pessoas'), o verbo poderia ir para o plural (concordância atrativa), mas não é o caso aqui.",
+      },
+      {
+        id: "ws4_p3",
+        subject: "portugues",
+        topic: "Concordância Verbal — Expressão 'A Maioria De'",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Analise as frases abaixo sobre concordância com expressões partitivas:\n\nI. A maioria dos alunos foi aprovada.\nII. A maioria dos alunos foram aprovados.\nIII. Grande parte das professoras faltou.\nIV. Grande parte das professoras faltaram.\n\nEstão corretas:',
+        options: [
+          "Apenas I e III.",
+          "Apenas II e IV.",
+          "I, II, III e IV.",
+          "Apenas I.",
+          "Apenas II.",
+        ],
+        answer: 2,
+        explanation:
+          "Com expressões partitivas ('a maioria de', 'grande parte de', 'a metade de'), o verbo pode concordar com o núcleo da expressão (singular) OU com o substantivo que vem depois (plural). Portanto, todas as quatro frases estão corretas — é uma questão de concordância atrativa ou ideológica. I e III usam o singular; II e IV usam o plural. Ambas as formas são aceitas pela norma culta.",
+      },
+      {
+        id: "ws4_p4",
+        subject: "portugues",
+        topic: "Concordância Verbal — 'Um Dos Que'",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          '"Ele foi um dos candidatos que _______ melhor na prova."\n\nA forma verbal correta é:',
+        options: [
+          "se saiu",
+          "se saíram",
+          "se saísse",
+          "se sairiam",
+          "se sairão",
+        ],
+        answer: 1,
+        explanation:
+          "Na construção 'um dos que', o verbo da oração relativa normalmente vai para o plural, concordando com o antecedente plural 'candidatos': 'um dos candidatos que se saíram'. O singular ('se saiu') também é aceito em algumas gramáticas, mas a norma culta prefere o plural nessa construção.",
+      },
+      {
+        id: "ws4_p5",
+        subject: "portugues",
+        topic: "Concordância Verbal — Sujeito Posposto",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          '"_______ vários problemas no sistema durante a atualização."\n\nAssinale a alternativa que preenche a lacuna corretamente:',
+        options: [
+          "Houve",
+          "Houveram",
+          "Haviam",
+          "Havia",
+          "Tem",
+        ],
+        answer: 0,
+        explanation:
+          "O verbo 'haver' com sentido de 'existir' é impessoal — não tem sujeito e fica sempre no singular: 'Houve vários problemas'. Não se conjuga como 'existir', que admite plural ('Existiram vários problemas'). 'Houveram' e 'Haviam' estão errados nesse contexto.",
+      },
+      {
+        id: "ws4_p6",
+        subject: "portugues",
+        topic: "Concordância Verbal — Verbo 'Ser'",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          '"O maior problema _______ as faltas injustificadas."\n\nQual a forma correta do verbo?',
+        options: [
+          "é",
+          "são",
+          "eram",
+          "foi",
+          "foram",
+        ],
+        answer: 1,
+        explanation:
+          "Com o verbo 'ser', quando sujeito e predicativo têm números diferentes, o verbo concorda com o predicativo se este for mais expressivo ou vier no plural: 'O maior problema são as faltas injustificadas.' O predicativo 'as faltas injustificadas' está no plural, puxando o verbo para o plural.",
+      },
+      {
+        id: "ws4_p7",
+        subject: "portugues",
+        topic: "Concordância Verbal — Pronome Relativo 'Que'",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          '"Fui eu que _______ a proposta ao diretor."\n\nA forma verbal correta é:',
+        options: [
+          "apresentou",
+          "apresentei",
+          "apresentaram",
+          "apresentaste",
+          "apresentarmos",
+        ],
+        answer: 1,
+        explanation:
+          "Quando o pronome relativo 'que' tem como antecedente um pronome pessoal (eu, tu, ele), o verbo concorda com esse pronome: 'Fui eu que apresentei' — o 'que' retoma 'eu' (1ª pessoa do singular). Se fosse 'fui tu que', o verbo ficaria em 2ª pessoa: 'fui tu que apresentaste'.",
+      },
+      {
+        id: "ws4_p8",
+        subject: "portugues",
+        topic: "Concordância Nominal — Adjetivo com Dois Substantivos",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          '"Comprei um casaco e uma blusa _______."\n\nAssinale a alternativa que preenche corretamente a lacuna, respeitando a concordância nominal:',
+        options: [
+          "azuis",
+          "azul",
+          "azules",
+          "azule",
+          "azuís",
+        ],
+        answer: 0,
+        explanation:
+          "Quando um adjetivo se refere a mais de um substantivo (casaco + blusa), ele vai para o plural. Se os substantivos forem de gêneros diferentes, o adjetivo vai para o masculino plural; se forem do mesmo gênero, concorda com eles: casaco (masc.) + blusa (fem.) → plural masculino = 'azuis'.",
+      },
+      {
+        id: "ws4_p9",
+        subject: "portugues",
+        topic: "Concordância Nominal — Adjetivo Anteposto",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          '"Encontrei _______ caderno e mochila no corredor."\n\nQual a forma correta do adjetivo para preencher a lacuna?',
+        options: [
+          "velhos",
+          "velho",
+          "velhas",
+          "velha",
+          "velhe",
+        ],
+        answer: 1,
+        explanation:
+          "Quando o adjetivo é anteposto (vem antes dos substantivos), ele pode concordar com o substantivo mais próximo: 'Encontrei velho caderno e mochila' (concorda com 'caderno', masc. sing.). Essa regra permite o singular concordando com o núcleo mais próximo. Se fosse posposto: 'Encontrei caderno e mochila velhos' (plural).",
+      },
+      {
+        id: "ws4_p10",
+        subject: "portugues",
+        topic: "Concordância Nominal — 'É Proibido / É Necessário'",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Analise as frases:\n\nI. É proibida a entrada de menores.\nII. É proibido a entrada de menores.\nIII. Ficou proibida a entrada de menores.\nIV. Ficou proibido a entrada de menores.\n\nEstão gramaticalmente corretas:',
+        options: [
+          "Apenas I e III.",
+          "Apenas II e IV.",
+          "I, II, III e IV.",
+          "Apenas I.",
+          "Apenas III.",
+        ],
+        answer: 0,
+        explanation:
+          "Quando o adjetivo/particípio tem um substantivo com artigo ('a entrada'), ele deve concordar com esse substantivo: 'proibida' concorda com 'a entrada' (feminina). Se não houvesse artigo, ficaria invariável no masculino: 'É proibido entrada de menores'. Com artigo definido, a concordância é obrigatória: 'proibida' e 'proibido' (sem artigo). I e III estão corretas.",
+      },
+      {
+        id: "ws4_p11",
+        subject: "portugues",
+        topic: "Concordância Nominal — 'Meio'",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          '"Ela estava _______ constrangida com a situação."\n\nA forma correta de "meio" nessa frase é:',
+        options: [
+          "meia",
+          "meio",
+          "meios",
+          "meias",
+          "ambas as formas são aceitas",
+        ],
+        answer: 1,
+        explanation:
+          "'Meio' com o sentido de 'um pouco' (advérbio de intensidade) é invariável: 'Ela estava meio constrangida'. Por ser advérbio, não concorda com o substantivo. Erro comum é usar 'meia', que seria a forma adjetiva ('meia hora', 'meia dúzia'). Como advérbio modificando adjetivo, usa-se sempre 'meio'.",
+      },
+      {
+        id: "ws4_p12",
+        subject: "portugues",
+        topic: "Concordância Nominal — 'Anexo / Incluso'",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          '"Seguem _______ as fotos solicitadas."\n\nA forma correta é:',
+        options: [
+          "em anexo",
+          "anexas",
+          "anexo",
+          "inclusas",
+          "tanto 'anexas' quanto 'em anexo' estão corretas",
+        ],
+        answer: 4,
+        explanation:
+          "'Anexo' como adjetivo concorda com o substantivo: 'Seguem anexas as fotos' (fem. pl.). 'Em anexo' é uma locução adverbial e fica invariável: 'Seguem em anexo as fotos'. Ambas as formas são aceitas pela norma culta. 'Anexo' (masc. sing.) estaria errado pois 'fotos' é feminino plural.",
+      },
+      {
+        id: "ws4_p13",
+        subject: "portugues",
+        topic: "Concordância Verbal — Voz Passiva com 'Se'",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          '"_______ muitas casas neste bairro nos últimos anos."\n\nAssinale a alternativa com a concordância correta (voz passiva sintética):',
+        options: [
+          "Vendeu-se",
+          "Venderam-se",
+          "Vende-se",
+          "Vendem-se",
+          "Vender-se",
+        ],
+        answer: 1,
+        explanation:
+          "Na voz passiva sintética (com 'se' apassivador), o verbo concorda com o sujeito paciente. O sujeito é 'muitas casas' (plural feminino), portanto o verbo vai para o plural: 'Venderam-se muitas casas'. Erro comum: usar singular por considerar 'se' como objeto, o que seria a construção de voz ativa com sujeito indeterminado.",
+      },
+      {
+        id: "ws4_p14",
+        subject: "portugues",
+        topic: "Concordância Verbal — Sujeito Indeterminado com 'Se'",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          '"Precisa-se de professores experientes para o novo projeto."\n\nEssa frase usa o pronome "se" como:',
+        options: [
+          "Apassivador — a frase está na voz passiva sintética.",
+          "Índice de indeterminação do sujeito — o sujeito é indeterminado.",
+          "Reflexivo — indica ação reflexiva.",
+          "Recíproco — indica ação mútua.",
+          "Parte do verbo — verbo pronominal.",
+        ],
+        answer: 1,
+        explanation:
+          "Com verbos intransitivos ou transitivos indiretos (como 'precisar de'), o 'se' é índice de indeterminação do sujeito — não há como fazer a voz passiva sintética. O verbo fica no singular: 'Precisa-se de professores'. Se tentarmos transformar: 'Professores são precisados' não é natural em português, o que confirma que não é passiva.",
+      },
+      {
+        id: "ws4_p15",
+        subject: "portugues",
+        topic: "Concordância Verbal — Casos Especiais",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Identifique a frase com ERRO de concordância verbal:',
+        options: [
+          "Fazem dez anos que não o vejo.",
+          "Faz dez anos que não o vejo.",
+          "Há dez anos que não o vejo.",
+          "Faz dez anos desde que não o vejo.",
+          "Há dez anos eu não o vejo.",
+        ],
+        answer: 0,
+        explanation:
+          "O verbo 'fazer' indicando tempo decorrido é impessoal — fica sempre no singular: 'Faz dez anos' (correto). 'Fazem dez anos' é erro de concordância por tratar 'fazer' como se tivesse sujeito 'dez anos'. 'Há' (do verbo haver) também é impessoal e correto. A alternativa A contém o erro de usar 'fazem' no plural.",
+      },
+
+      // ── MATEMÁTICA — PORCENTAGEM E JUROS ──────────────────────────────────────
+      {
+        id: "ws4_m1",
+        subject: "matematica",
+        topic: "Porcentagem — Cálculo Básico",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Em uma turma de 40 alunos, 35% estão com a frequência em dia. Quantos alunos estão com a frequência em dia?',
+        options: ["10", "12", "14", "15", "16"],
+        answer: 2,
+        explanation:
+          "35% de 40 = (35/100) × 40 = 0,35 × 40 = 14 alunos.\nMétodo alternativo: 10% de 40 = 4; 35% = 3 × 10% + 5% = 12 + 2 = 14 ✓",
+      },
+      {
+        id: "ws4_m2",
+        subject: "matematica",
+        topic: "Porcentagem — Encontrar o Total",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Em uma pesquisa, 120 pessoas responderam que preferem café. Esse número representa 40% dos entrevistados. Quantas pessoas foram entrevistadas no total?',
+        options: ["240", "280", "300", "320", "360"],
+        answer: 2,
+        explanation:
+          "Se 40% = 120 pessoas, então 1% = 120 ÷ 40 = 3 pessoas.\nTotal = 100% = 3 × 100 = 300 pessoas.\nVerificação: 40% de 300 = 0,40 × 300 = 120 ✓",
+      },
+      {
+        id: "ws4_m3",
+        subject: "matematica",
+        topic: "Porcentagem — Aumento Percentual",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Um produto custava R$ 80,00 e teve um aumento de 25%. Qual é o novo preço?',
+        options: ["R$ 95,00", "R$ 100,00", "R$ 105,00", "R$ 110,00", "R$ 115,00"],
+        answer: 1,
+        explanation:
+          "Aumento de 25% → fator multiplicativo = 1 + 0,25 = 1,25.\nNovo preço = 80 × 1,25 = R$ 100,00.\nVerificação: 25% de 80 = 20; 80 + 20 = 100 ✓",
+      },
+      {
+        id: "ws4_m4",
+        subject: "matematica",
+        topic: "Porcentagem — Desconto Percentual",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Uma loja oferece 30% de desconto em todos os produtos. Uma televisão custa R$ 1.200,00. Qual é o preço com desconto?',
+        options: ["R$ 720,00", "R$ 780,00", "R$ 840,00", "R$ 900,00", "R$ 960,00"],
+        answer: 2,
+        explanation:
+          "Desconto de 30% → fator multiplicativo = 1 − 0,30 = 0,70.\nPreço com desconto = 1.200 × 0,70 = R$ 840,00.\nVerificação: 30% de 1.200 = 360; 1.200 − 360 = 840 ✓",
+      },
+      {
+        id: "ws4_m5",
+        subject: "matematica",
+        topic: "Porcentagem — Aumentos e Descontos Consecutivos",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Um produto sofreu primeiro um aumento de 20% e depois um desconto de 20%. Em relação ao preço original, o produto ficou:',
+        options: [
+          "Com o mesmo preço.",
+          "4% mais caro.",
+          "4% mais barato.",
+          "20% mais barato.",
+          "20% mais caro.",
+        ],
+        answer: 2,
+        explanation:
+          "Aumento de 20%: fator = 1,20.\nDesconto de 20%: fator = 0,80.\nFator combinado = 1,20 × 0,80 = 0,96.\nO produto ficou 4% mais barato (perdeu 4% do valor original).\nErro comum: pensar que +20% e −20% se cancelam. Na verdade, o desconto é aplicado sobre o preço já aumentado, resultando em valor final menor.",
+      },
+      {
+        id: "ws4_m6",
+        subject: "matematica",
+        topic: "Porcentagem — Cálculo do Preço Original",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Após um desconto de 15%, um livro foi vendido por R$ 51,00. Qual era o preço original do livro?',
+        options: ["R$ 58,65", "R$ 60,00", "R$ 63,00", "R$ 65,00", "R$ 66,15"],
+        answer: 1,
+        explanation:
+          "Se houve 15% de desconto, o comprador pagou 85% do preço original.\n85% do preço original = R$ 51,00\nPreço original = 51 ÷ 0,85 = R$ 60,00.\nVerificação: 15% de 60 = 9; 60 − 9 = 51 ✓",
+      },
+      {
+        id: "ws4_m7",
+        subject: "matematica",
+        topic: "Porcentagem — Contexto Real",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Uma cidade tinha 50.000 habitantes em 2020. Em 2026, a população cresceu 12%. Quantos habitantes a cidade tem agora?',
+        options: ["55.000", "56.000", "57.000", "58.000", "60.000"],
+        answer: 1,
+        explanation:
+          "Crescimento de 12% → fator multiplicativo = 1,12.\nPopulação atual = 50.000 × 1,12 = 56.000 habitantes.\nVerificação: 12% de 50.000 = 6.000; 50.000 + 6.000 = 56.000 ✓",
+      },
+      {
+        id: "ws4_m8",
+        subject: "matematica",
+        topic: "Juros Simples — Cálculo Básico",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Um capital de R$ 2.000,00 é aplicado a juros simples de 3% ao mês durante 4 meses. Qual é o valor dos juros?',
+        options: ["R$ 180,00", "R$ 200,00", "R$ 240,00", "R$ 260,00", "R$ 300,00"],
+        answer: 2,
+        explanation:
+          "Fórmula dos juros simples: J = C × i × t\nJ = 2.000 × 0,03 × 4 = 2.000 × 0,12 = R$ 240,00.\nOnde: C = capital, i = taxa (em decimal), t = tempo.",
+      },
+      {
+        id: "ws4_m9",
+        subject: "matematica",
+        topic: "Juros Simples — Montante",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Aplicando R$ 5.000,00 a juros simples de 2% ao mês por 6 meses, qual será o montante ao final da aplicação?',
+        options: ["R$ 5.500,00", "R$ 5.600,00", "R$ 5.700,00", "R$ 5.800,00", "R$ 6.000,00"],
+        answer: 1,
+        explanation:
+          "J = C × i × t = 5.000 × 0,02 × 6 = R$ 600,00.\nMontante M = C + J = 5.000 + 600 = R$ 5.600,00.\nOu diretamente: M = C × (1 + i × t) = 5.000 × (1 + 0,12) = 5.000 × 1,12 = R$ 5.600,00 ✓",
+      },
+      {
+        id: "ws4_m10",
+        subject: "matematica",
+        topic: "Juros Simples — Encontrar a Taxa",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Um capital de R$ 4.000,00 rendeu R$ 480,00 de juros simples em 6 meses. Qual foi a taxa mensal de juros?',
+        options: ["1,5%", "2%", "2,5%", "3%", "4%"],
+        answer: 1,
+        explanation:
+          "J = C × i × t → i = J ÷ (C × t)\ni = 480 ÷ (4.000 × 6) = 480 ÷ 24.000 = 0,02 = 2% ao mês.\nVerificação: 4.000 × 0,02 × 6 = 480 ✓",
+      },
+      {
+        id: "ws4_m11",
+        subject: "matematica",
+        topic: "Juros Simples — Encontrar o Tempo",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'A que taxa mensal de juros simples, um capital de R$ 3.000,00 deve ser aplicado para render R$ 900,00 em 10 meses?',
+        options: ["2%", "2,5%", "3%", "3,5%", "4%"],
+        answer: 2,
+        explanation:
+          "i = J ÷ (C × t) = 900 ÷ (3.000 × 10) = 900 ÷ 30.000 = 0,03 = 3% ao mês.\nVerificação: 3.000 × 0,03 × 10 = 900 ✓",
+      },
+      {
+        id: "ws4_m12",
+        subject: "matematica",
+        topic: "Juros Compostos — Conceito",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Qual é a principal diferença entre juros simples e juros compostos?',
+        options: [
+          "Nos juros simples, os juros são calculados sobre o montante; nos compostos, sobre o capital inicial.",
+          "Nos juros compostos, os juros de cada período são incorporados ao capital e passam a render juros no período seguinte.",
+          "Nos juros compostos, a taxa de juros é sempre maior do que nos juros simples.",
+          "Juros simples se aplicam apenas a aplicações mensais; compostos, anuais.",
+          "Não há diferença para aplicações de curto prazo.",
+        ],
+        answer: 1,
+        explanation:
+          "A diferença fundamental: nos juros simples, os juros são calculados sempre sobre o capital inicial (C), por isso crescem linearmente. Nos juros compostos, os juros de cada período são somados ao capital (capitalização), formando um novo capital que rende juros no próximo período — crescimento exponencial. Por isso, para o mesmo prazo e taxa, os compostos sempre rendem mais.",
+      },
+      {
+        id: "ws4_m13",
+        subject: "matematica",
+        topic: "Juros Compostos — Cálculo",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Um capital de R$ 1.000,00 é aplicado a juros compostos de 10% ao período durante 3 períodos. Qual é o montante final? (Use: 1,1³ = 1,331)',
+        options: ["R$ 1.300,00", "R$ 1.310,00", "R$ 1.320,00", "R$ 1.331,00", "R$ 1.350,00"],
+        answer: 3,
+        explanation:
+          "Fórmula dos juros compostos: M = C × (1 + i)ⁿ\nM = 1.000 × (1,10)³ = 1.000 × 1,331 = R$ 1.331,00.\nEvolução:\n• 1º período: 1.000 × 1,1 = 1.100\n• 2º período: 1.100 × 1,1 = 1.210\n• 3º período: 1.210 × 1,1 = 1.331 ✓\nNote que nos juros simples seriam: 1.000 × (1 + 0,10 × 3) = 1.300 — menos que os compostos.",
+      },
+      {
+        id: "ws4_m14",
+        subject: "matematica",
+        topic: "Juros Compostos vs. Simples",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Um investidor aplicou R$ 2.000,00 a uma taxa de 5% ao período. Quanto a mais ele receberá com juros compostos do que com juros simples após 2 períodos?\n(Use: 1,05² = 1,1025)',
+        options: ["R$ 0,00", "R$ 5,00", "R$ 10,00", "R$ 15,00", "R$ 25,00"],
+        answer: 1,
+        explanation:
+          "Juros simples: J = 2.000 × 0,05 × 2 = R$ 200,00 → Montante = R$ 2.200,00.\nJuros compostos: M = 2.000 × (1,05)² = 2.000 × 1,1025 = R$ 2.205,00.\nDiferença = 2.205 − 2.200 = R$ 5,00.\nEssa diferença corresponde exatamente aos 'juros sobre juros' do 2º período: 5% sobre os R$ 100 de juros do 1º período = R$ 5,00.",
+      },
+      {
+        id: "ws4_m15",
+        subject: "matematica",
+        topic: "Juros Compostos — Desafio",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Marina aplicou R$ 5.000,00 em um fundo que rende 2% ao mês em juros compostos. Após quantos meses o montante ultrapassará R$ 6.000,00?\n(Dados: 1,02⁹ ≈ 1,195 ; 1,02¹⁰ ≈ 1,219)',
+        options: ["8 meses", "9 meses", "10 meses", "11 meses", "12 meses"],
+        answer: 2,
+        explanation:
+          "Queremos: 5.000 × (1,02)ⁿ > 6.000 → (1,02)ⁿ > 1,20.\nTestando:\n• n = 9: 1,02⁹ ≈ 1,195 → 5.000 × 1,195 = 5.975 < 6.000 (ainda não)\n• n = 10: 1,02¹⁰ ≈ 1,219 → 5.000 × 1,219 = 6.095 > 6.000 ✓\nO montante ultrapassará R$ 6.000,00 após 10 meses.",
+      },
+    ],
+  },
 };

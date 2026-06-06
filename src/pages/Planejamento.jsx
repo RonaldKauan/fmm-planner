@@ -5,6 +5,7 @@ const SIMULADO_RELEASES = {
   1: "2026-05-17",
   2: "2026-05-24",
   3: "2026-05-31",
+  4: "2026-06-06",
 };
 
 function getLocalDateStr(date) {
@@ -795,7 +796,7 @@ export default function Planejamento({ onNavigate }) {
                           {week.tip}
                         </div>
                       )}
-                      {[1, 2, 3].includes(week.num) && (() => {
+                      {[1, 2, 3, 4].includes(week.num) && (() => {
                         const available = isSimuladoAvailable(week.num);
                         const meta = {
                           1: {
@@ -812,6 +813,11 @@ export default function Planejamento({ onNavigate }) {
                             title: "Simulado da Semana 3",
                             desc: "30 questões: Ortografia (porquê/porque/s/z/x/ch/g/j), Acentuação Gráfica, Razão e Proporção, Regra de Três.",
                             dateLabel: "Disponível no domingo, 31/05/2026",
+                          },
+                          4: {
+                            title: "Simulado da Semana 4",
+                            desc: "30 questões: Concordância Verbal e Nominal, Porcentagem, Juros Simples e Compostos.",
+                            dateLabel: "Disponível no sábado, 06/06/2026",
                           },
                         }[week.num];
                         return (
@@ -831,7 +837,7 @@ export default function Planejamento({ onNavigate }) {
                               disabled={!available}
                               onClick={() => onNavigate("simuladoSemanal", { weekNum: week.num })}
                             >
-                              {available ? "Iniciar Simulado →" : "Disponível no domingo"}
+                              {available ? "Iniciar Simulado →" : `Disponível em ${meta.dateLabel.split(", ")[1] || "breve"}`}
                             </button>
                           </div>
                         );
