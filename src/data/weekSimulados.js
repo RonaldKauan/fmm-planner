@@ -2031,4 +2031,594 @@ export const weekSimulados = {
       },
     ],
   },
+
+  5: {
+    title: "Simulado — Semana 5",
+    subtitle: "Regência Verbal e Nominal · Crase · Pontuação · Álgebra · Fatoração · Equações do 1º Grau",
+    date: "2026-06-21", // domingo — semana 5 estendida até 21/06
+    questions: [
+      // ── LÍNGUA PORTUGUESA — REGÊNCIA VERBAL ────────────────────────────────
+      {
+        id: "ws5_p1",
+        subject: "portugues",
+        topic: "Regência Verbal",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Assinale a alternativa em que o verbo "assistir" está empregado com a regência correta:',
+        options: [
+          "Nós assistimos o filme ontem à noite.",
+          "Ela assistiu ao jogo com muito entusiasmo.",
+          "Eles assistiram o show sem parar.",
+          "O médico assistiu o paciente rapidamente.",
+          "Eu assisti o documentário duas vezes.",
+        ],
+        answer: 1,
+        explanation:
+          'O verbo "assistir" no sentido de "ver/presenciar" é intransitivo indireto e exige a preposição "a": assistir a algo. Portanto, "assistiu ao jogo" está correto. Nas demais alternativas, "assistir" aparece sem a preposição obrigatória. Atenção: no sentido de "prestar assistência", o verbo admite objeto direto: "o médico assistiu o paciente".',
+      },
+      {
+        id: "ws5_p2",
+        subject: "portugues",
+        topic: "Regência Verbal",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Qual alternativa apresenta o verbo "obedecer" com uso correto?',
+        options: [
+          "As crianças devem obedecer os pais.",
+          "As crianças devem obedecer aos pais.",
+          "As crianças devem obedecer com os pais.",
+          "As crianças devem obedecer para os pais.",
+          "As crianças devem obedecer pelos pais.",
+        ],
+        answer: 1,
+        explanation:
+          '"Obedecer" é verbo transitivo indireto e exige a preposição "a": obedecer a alguém. Portanto, "obedecer aos pais" é a forma correta. Erro frequente é usar "obedecer" como transitivo direto (sem preposição), o que é incorreto na norma culta.',
+      },
+      {
+        id: "ws5_p3",
+        subject: "portugues",
+        topic: "Regência Verbal",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          '"O candidato aspirava _______ o cargo de gerente há anos."\n\nA preposição que completa corretamente a frase é:',
+        options: ["por", "com", "a", "de", "em"],
+        answer: 2,
+        explanation:
+          'O verbo "aspirar" no sentido de "desejar/ambicionar" é transitivo indireto e exige a preposição "a": aspirar a algo. "O candidato aspirava ao cargo" está correto. No sentido de "respirar/inalar", "aspirar" é transitivo direto (sem preposição): "o paciente aspirou o medicamento".',
+      },
+      {
+        id: "ws5_p4",
+        subject: "portugues",
+        topic: "Regência Verbal",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Assinale a alternativa em que todos os verbos estão usados com a regência correta:',
+        options: [
+          "Preciso de ajuda. / Gostei do filme. / Dependo você.",
+          "Preciso de ajuda. / Gostei do filme. / Dependo de você.",
+          "Preciso ajuda. / Gostei o filme. / Dependo de você.",
+          "Preciso de ajuda. / Gostei ao filme. / Dependo com você.",
+          "Preciso com ajuda. / Gostei do filme. / Dependo de você.",
+        ],
+        answer: 1,
+        explanation:
+          '"Precisar", "gostar" e "depender" são verbos transitivos indiretos que exigem a preposição "de": precisar de algo, gostar de algo, depender de alguém. A única alternativa em que todos os três estão corretos é a B.',
+      },
+      {
+        id: "ws5_p5",
+        subject: "portugues",
+        topic: "Regência Nominal",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          '"Ela é totalmente _______ ao chocolate — não consegue resistir."\n\nQual preposição completa corretamente a frase com o nome "viciada"?',
+        options: ["de", "com", "em", "sobre", "por"],
+        answer: 2,
+        explanation:
+          'O adjetivo "viciado" exige a preposição "em": viciado em algo. Assim, "ela é totalmente viciada em chocolate" está correto. A regência nominal segue a mesma lógica da verbal: cada palavra exige uma preposição específica.',
+      },
+      // ── LÍNGUA PORTUGUESA — CRASE ──────────────────────────────────────────
+      {
+        id: "ws5_p6",
+        subject: "portugues",
+        topic: "Crase",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Em qual das alternativas o uso da crase está correto?',
+        options: [
+          "Ele se referiu à ela com muito carinho.",
+          "Vou à escola todos os dias.",
+          "Entreguei o relatório à você.",
+          "Fui à pé até o trabalho.",
+          "Enviamos o convite à todos os alunos.",
+        ],
+        answer: 1,
+        explanation:
+          '"Vou à escola" está correto: "à" = preposição "a" + artigo definido feminino "a" (a escola → à escola). Erros nas demais: A e C — pronomes pessoais não admitem artigo, logo não há crase; D — "a pé" é locução adverbial sem artigo, não há crase; E — "todos" é pronome indefinido masculino, não há fusão com artigo feminino.',
+      },
+      {
+        id: "ws5_p7",
+        subject: "portugues",
+        topic: "Crase",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          '"Ela chegou _______ tempo para a reunião."\n\nO correto preenchimento da lacuna é:',
+        options: ["à", "a", "há", "as", "às"],
+        answer: 0,
+        explanation:
+          '"À tempo" está correto porque "a tempo" é uma locução adverbial feminina que admite a crase facultativa — mas a forma com crase (à tempo) é consagrada pelo uso. Atenção: "há tempo" indicaria que algo aconteceu "faz tempo" (sentido de passado), o que muda o significado da frase.',
+      },
+      {
+        id: "ws5_p8",
+        subject: "portugues",
+        topic: "Crase",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Em qual alternativa NÃO deve ocorrer crase?',
+        options: [
+          "Fui à farmácia comprar remédio.",
+          "Ele chegou às três horas da tarde.",
+          "A proposta foi enviada à diretora.",
+          "Vou a São Paulo amanhã.",
+          "Ela se dedicou à leitura diariamente.",
+        ],
+        answer: 3,
+        explanation:
+          '"Vou a São Paulo" — nomes de cidades em geral não admitem artigo definido antes deles, portanto não há crase. Exceção: cidades que têm artigo incorporado ao nome, como "ao Rio de Janeiro", "à Bahia". As demais alternativas têm crase correta: farmácia (feminino + artigo), três horas (horas = feminino plural + às), diretora (feminino + artigo), leitura (feminino + artigo).',
+      },
+      {
+        id: "ws5_p9",
+        subject: "portugues",
+        topic: "Crase",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Assinale a alternativa correta quanto ao uso da crase:',
+        options: [
+          "Comprei um presente à minha mãe.",
+          "Comprei um presente a minha mãe.",
+          "Dei o livro à ela.",
+          "Dirigi-me à você.",
+          "Referi-me à ele.",
+        ],
+        answer: 1,
+        explanation:
+          '"Comprei um presente a minha mãe" está correto — antes de pronomes possessivos femininos (minha, sua, nossa…) a crase é FACULTATIVA. Ambas as formas (a minha mãe / à minha mãe) são aceitas. Nas demais: C, D e E usam crase antes de pronomes pessoais do caso oblíquo, o que é incorreto (ela, você, ele não admitem artigo).',
+      },
+      {
+        id: "ws5_p10",
+        subject: "portugues",
+        topic: "Crase",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          '"O médico atende _______ domicílio."\n\nA forma correta é:',
+        options: ["a", "à", "ao", "há", "de"],
+        answer: 1,
+        explanation:
+          '"À domicílio" — embora "domicílio" seja substantivo masculino, a locução "a domicílio" é uma expressão feminina adverbial que se escreve com crase: "à domicílio". Da mesma forma que "à moda", "à vontade", "à toa" — locuções adverbiais femininas que levam crase.',
+      },
+      // ── LÍNGUA PORTUGUESA — PONTUAÇÃO ─────────────────────────────────────
+      {
+        id: "ws5_p11",
+        subject: "portugues",
+        topic: "Uso da Vírgula",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Assinale a alternativa em que a vírgula está empregada corretamente:',
+        options: [
+          "O aluno, estudou muito e passou na prova.",
+          "Carlos, chegou tarde, mas resolveu as questões.",
+          "Ana, minha melhor amiga, me ajudou no projeto.",
+          "Compramos, pão leite e manteiga no mercado.",
+          "O professor explicou, os alunos entenderam.",
+        ],
+        answer: 2,
+        explanation:
+          '"Ana, minha melhor amiga, me ajudou no projeto" — o aposto explicativo "minha melhor amiga" é isolado corretamente por vírgulas. Erros: A — não se separa sujeito do predicado com vírgula; B — "Carlos" é sujeito, não aposto; D — itens de enumeração separados incorretamente; E — vírgula entre sujeito/predicado não é correta nesse contexto.',
+      },
+      {
+        id: "ws5_p12",
+        subject: "portugues",
+        topic: "Uso da Vírgula",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          '"Embora estivesse cansado_____ o atleta completou a prova."\n\nA pontuação que deve preencher a lacuna é:',
+        options: [
+          "ponto e vírgula",
+          "dois-pontos",
+          "vírgula",
+          "travessão",
+          "nenhuma pontuação",
+        ],
+        answer: 2,
+        explanation:
+          'Orações subordinadas adverbiais (introduzidas por "embora", "apesar de", "quando", "se" etc.) que antecedem a oração principal são separadas por vírgula: "Embora estivesse cansado, o atleta completou a prova." Se a subordinada vier depois da principal, a vírgula é facultativa.',
+      },
+      {
+        id: "ws5_p13",
+        subject: "portugues",
+        topic: "Ponto e Vírgula",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Em qual alternativa o ponto e vírgula está empregado corretamente?',
+        options: [
+          "Comprei; pão, leite e manteiga.",
+          "Estudei muito; e passei na prova.",
+          "Os alunos do 1º ano ficaram na sala A; os do 2º ano, na sala B; os do 3º, na sala C.",
+          "Ele chegou cedo; mas foi embora logo.",
+          "Preciso de; caneta, lápis e borracha.",
+        ],
+        answer: 2,
+        explanation:
+          'O ponto e vírgula separa orações paralelas de certa extensão ou elementos de uma enumeração complexa. Em "Os alunos do 1º ano ficaram na sala A; os do 2º ano, na sala B; os do 3º, na sala C" ele organiza uma enumeração de orações coordenadas com estrutura similar. Nas demais alternativas, o ponto e vírgula é colocado de forma errada — entre sujeito e predicado ou antes de conjunção simples.',
+      },
+      {
+        id: "ws5_p14",
+        subject: "portugues",
+        topic: "Dois-pontos",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Assinale a alternativa em que os dois-pontos são usados corretamente:',
+        options: [
+          "O professor pediu: que todos trouxessem o livro.",
+          "Ela foi ao mercado e comprou: pão, leite e ovos.",
+          "O diretor disse: \"A reunião está cancelada.\"",
+          "Fui ao médico: mas ele não estava.",
+          "O aluno: que estuda sempre se sai bem.",
+        ],
+        answer: 2,
+        explanation:
+          'Os dois-pontos são usados antes de citação direta (discurso direto): \'O diretor disse: "A reunião está cancelada"\'. Também se usam antes de enumeração e antes de explicação/conclusão. Erros: A — entre verbo e oração subordinada completiva não se usa dois-pontos; B — entre verbo e complemento não se usa dois-pontos; D — antes de conjunção adversativa ("mas") não se usa dois-pontos; E — entre sujeito e predicado não se usa dois-pontos.',
+      },
+      {
+        id: "ws5_p15",
+        subject: "portugues",
+        topic: "Pontuação Geral",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Leia o trecho:\n\n"Havia três problemas na empresa_____ falta de comunicação_____ má gestão financeira_____ e alta rotatividade de pessoal."\n\nA sequência de pontuação que preenche corretamente as lacunas é:',
+        options: [
+          "vírgula, vírgula, vírgula",
+          "dois-pontos, vírgula, vírgula",
+          "ponto e vírgula, ponto e vírgula, ponto e vírgula",
+          "dois-pontos, ponto e vírgula, ponto e vírgula",
+          "vírgula, ponto e vírgula, ponto e vírgula",
+        ],
+        answer: 1,
+        explanation:
+          '"Havia três problemas na empresa: falta de comunicação, má gestão financeira, e alta rotatividade de pessoal." Os dois-pontos anunciam a enumeração que se segue; as vírgulas separam os itens da lista. Como os itens são simples (sem subdivisões internas), a vírgula é suficiente — não há necessidade de ponto e vírgula.',
+      },
+      // ── MATEMÁTICA — EXPRESSÕES ALGÉBRICAS E PRODUTOS NOTÁVEIS ────────────
+      {
+        id: "ws5_m1",
+        subject: "matematica",
+        topic: "Produtos Notáveis — Julgamento de Afirmativas",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Os produtos notáveis são identidades algébricas que facilitam cálculos e aparecem em diversas situações matemáticas. Julgue as afirmativas a seguir sobre produtos notáveis:\n\nI. O quadrado da soma de dois termos (a + b)² é igual a a² + 2ab + b².\nII. O quadrado da diferença de dois termos (a − b)² resulta em a² − b².\nIII. O produto da soma pela diferença (a + b)(a − b) é igual a a² − b².\nIV. Se a = 4 e b = 3, então (a + b)(a − b) = 7.\n\nAssinale a alternativa correta:',
+        options: [
+          "Apenas as afirmativas I e III são verdadeiras.",
+          "As afirmativas I, II, III e IV são verdadeiras.",
+          "Apenas as afirmativas I, II e III são verdadeiras.",
+          "Apenas as afirmativas I, III e IV são verdadeiras.",
+          "Apenas as afirmativas II e IV são verdadeiras.",
+        ],
+        answer: 3,
+        explanation:
+          "I. (a+b)² = a² + 2ab + b² ✓ VERDADEIRA.\nII. (a−b)² = a² − 2ab + b² (não a² − b²) ✗ FALSA.\nIII. (a+b)(a−b) = a² − b² ✓ VERDADEIRA.\nIV. (4+3)(4−3) = 7 × 1 = 7 ✓ VERDADEIRA.\nPortanto, apenas as afirmativas I, III e IV são verdadeiras.",
+      },
+      {
+        id: "ws5_m2",
+        subject: "matematica",
+        topic: "Produtos Notáveis — Quadrado da Soma (contextualizado)",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Rodrigo comprou um terreno quadrado de lado x metros para construir sua casa. Após negociar com o vizinho, ele conseguiu ampliar cada lado do terreno em 6 metros. Utilizando produtos notáveis, assinale a alternativa que apresenta corretamente a expressão da nova área do terreno, em metros quadrados:',
+        options: [
+          "x² + 6",
+          "x² + 36",
+          "x² + 6x + 36",
+          "x² + 12x + 36",
+          "x² + 12x + 12",
+        ],
+        answer: 3,
+        explanation:
+          "O novo lado do terreno é (x + 6) metros.\nNova área = (x + 6)²\nUsando o quadrado da soma: (a + b)² = a² + 2ab + b²\n(x + 6)² = x² + 2·x·6 + 6² = x² + 12x + 36 ✓\nErro comum: esquecer o termo do meio (2ab) e escrever apenas x² + 36.",
+      },
+      {
+        id: "ws5_m3",
+        subject: "matematica",
+        topic: "Produtos Notáveis — Produto da Soma pela Diferença (contextualizado)",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'O engenheiro Marcos está projetando um painel retangular para uma exposição em Manaus. As dimensões do painel são (x + 8) metros de comprimento e (x − 8) metros de largura. Ele deseja calcular a área do painel usando produtos notáveis. Assinale a alternativa que apresenta corretamente a expressão da área:',
+        options: [
+          "x² − 8x + 64",
+          "x² + 64",
+          "x² − 64",
+          "x² − 16x + 64",
+          "x² − 16",
+        ],
+        answer: 2,
+        explanation:
+          "Área = comprimento × largura = (x + 8)(x − 8)\nUsando o produto da soma pela diferença: (a + b)(a − b) = a² − b²\n(x + 8)(x − 8) = x² − 8² = x² − 64 ✓\nEssa identidade elimina o termo do meio, pois +8x e −8x se cancelam.",
+      },
+      {
+        id: "ws5_m4",
+        subject: "matematica",
+        topic: "Expressões Algébricas — Valor Numérico (contextualizado)",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Uma fábrica de componentes eletrônicos em Manaus calcula seu lucro diário, em reais, pela expressão 2x² − 3x + 1, onde x representa o número de horas extras trabalhadas. Em um determinado dia, a equipe trabalhou x = 3 horas extras. Assinale a alternativa que apresenta corretamente o lucro calculado pela expressão:',
+        options: [
+          "R$ 8,00",
+          "R$ 9,00",
+          "R$ 10,00",
+          "R$ 11,00",
+          "R$ 12,00",
+        ],
+        answer: 2,
+        explanation:
+          "Substituindo x = 3 na expressão 2x² − 3x + 1:\n2(3)² − 3(3) + 1\n= 2 × 9 − 9 + 1\n= 18 − 9 + 1\n= 10 ✓\nAtenção à ordem das operações: potenciação antes da multiplicação e subtração.",
+      },
+      {
+        id: "ws5_m5",
+        subject: "matematica",
+        topic: "Produtos Notáveis — Cálculo Rápido (contextualizado)",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Beatriz está participando de uma olimpíada de matemática e precisa calcular rapidamente o valor de 43² − 37², sem calculadora e em poucos segundos. A professora orientou que ela use a propriedade dos produtos notáveis para simplificar o cálculo. Assinale a alternativa que apresenta o resultado correto:',
+        options: [
+          "360",
+          "420",
+          "480",
+          "540",
+          "600",
+        ],
+        answer: 2,
+        explanation:
+          "Usando a identidade a² − b² = (a + b)(a − b):\n43² − 37² = (43 + 37)(43 − 37)\n= 80 × 6\n= 480 ✓\nEssa técnica é muito mais rápida do que calcular 1.849 − 1.369 diretamente.",
+      },
+      // ── MATEMÁTICA — FATORAÇÃO ────────────────────────────────────────────
+      {
+        id: "ws5_m6",
+        subject: "matematica",
+        topic: "Fatoração — Julgamento de Afirmativas",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'A fatoração de expressões algébricas é uma técnica que consiste em reescrever uma expressão como produto de fatores mais simples, facilitando cálculos e resolução de equações. Com base nas técnicas de fatoração, julgue as afirmativas a seguir:\n\nI. A expressão 6x² + 9x pode ser fatorada como 3x(2x + 3).\nII. A diferença de dois quadrados x² − 49 é fatorada como (x + 7)².\nIII. O trinômio x² + 6x + 9 é um quadrado perfeito e pode ser fatorado como (x + 3)².\nIV. A expressão ax + ay + bx + by pode ser fatorada por agrupamento como (a + b)(x + y).\n\nAssinale a alternativa correta:',
+        options: [
+          "Apenas as afirmativas I e III são verdadeiras.",
+          "As afirmativas I, II, III e IV são verdadeiras.",
+          "Apenas as afirmativas II e IV são verdadeiras.",
+          "Apenas as afirmativas I, III e IV são verdadeiras.",
+          "Apenas as afirmativas I, II e III são verdadeiras.",
+        ],
+        answer: 3,
+        explanation:
+          "I. 3x(2x + 3) = 6x² + 9x ✓ VERDADEIRA.\nII. x² − 49 = (x + 7)(x − 7), não (x + 7)² ✗ FALSA — é diferença de quadrados, não quadrado perfeito.\nIII. (x + 3)² = x² + 6x + 9 ✓ VERDADEIRA.\nIV. (ax + ay) + (bx + by) = a(x + y) + b(x + y) = (a + b)(x + y) ✓ VERDADEIRA.\nApenas as afirmativas I, III e IV são verdadeiras.",
+      },
+      {
+        id: "ws5_m7",
+        subject: "matematica",
+        topic: "Fatoração — Diferença de Quadrados (contextualizado)",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Um jardineiro deseja cercar um canteiro retangular em uma praça de Manaus. As dimensões do canteiro, em metros, são representadas pelas expressões (x + 5) e (x − 5). Para calcular a área, o jardineiro reconheceu que a expressão pode ser fatorada como uma diferença de quadrados. Sabendo que x = 7 metros, assinale a alternativa que apresenta corretamente a área do canteiro:',
+        options: [
+          "20 m²",
+          "22 m²",
+          "24 m²",
+          "26 m²",
+          "28 m²",
+        ],
+        answer: 2,
+        explanation:
+          "Área = (x + 5)(x − 5) = x² − 25\nSubstituindo x = 7:\nÁrea = 7² − 25 = 49 − 25 = 24 m² ✓\nAlternativamente: (7 + 5)(7 − 5) = 12 × 2 = 24 m² ✓",
+      },
+      {
+        id: "ws5_m8",
+        subject: "matematica",
+        topic: "Fatoração — Fator Comum (contextualizado)",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'A professora Cláudia organizou uma excursão com alunos de dois períodos. O valor total arrecadado, em reais, pode ser representado pela expressão 12x + 8y, onde x representa a contribuição de cada aluno do período matutino e y, a de cada aluno do período vespertino. Para facilitar a divisão dos custos, a professora fatorou a expressão extraindo o maior fator comum. Assinale a alternativa que apresenta corretamente a fatoração:',
+        options: [
+          "2(6x + 4y)",
+          "4(3x + 2y)",
+          "4(3x + 4y)",
+          "8(x + y)",
+          "6(2x + y)",
+        ],
+        answer: 1,
+        explanation:
+          "Buscamos o MDC dos coeficientes: MDC(12, 8) = 4.\n12x + 8y = 4 · 3x + 4 · 2y = 4(3x + 2y) ✓\nVerificação: 4(3x + 2y) = 12x + 8y ✓\nNão se pode extrair 8 como fator comum porque 8 não divide 12 exatamente.",
+      },
+      {
+        id: "ws5_m9",
+        subject: "matematica",
+        topic: "Fatoração — Trinômio (contextualizado)",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'O arquiteto Bruno está projetando um lote de terreno cuja área pode ser expressa pelo trinômio x² + 7x + 12 metros quadrados. Para determinar as dimensões do lote e montar a planta, ele precisa fatorar essa expressão e encontrar dois fatores que representem o comprimento e a largura. Assinale a alternativa que apresenta corretamente a fatoração do trinômio:',
+        options: [
+          "(x + 1)(x + 12)",
+          "(x + 2)(x + 6)",
+          "(x + 3)(x + 4)",
+          "(x − 3)(x − 4)",
+          "(x + 4)(x + 3)",
+        ],
+        answer: 2,
+        explanation:
+          "Para fatorar x² + 7x + 12, buscamos dois números cuja:\n• Soma seja 7 (coeficiente de x)\n• Produto seja 12 (termo independente)\nTestando pares: 3 + 4 = 7 ✓ e 3 × 4 = 12 ✓\nx² + 7x + 12 = (x + 3)(x + 4) ✓\nAs alternativas C e E são equivalentes — a resposta é C.\nVerificação: (x + 3)(x + 4) = x² + 4x + 3x + 12 = x² + 7x + 12 ✓",
+      },
+      {
+        id: "ws5_m10",
+        subject: "matematica",
+        topic: "Fatoração — Agrupamento (contextualizado)",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Em uma gincana escolar, alunos de dois times — A e B — competiram em duas modalidades. A expressão que representa a pontuação total pode ser descrita como ma + na + mb + nb, onde m e n são os pontos por modalidade, e a e b são os multiplicadores de cada time. O professor pediu que os alunos simplificassem a expressão fatorando por agrupamento. Assinale a alternativa que apresenta corretamente o resultado:',
+        options: [
+          "(m + a)(n + b)",
+          "(m + n)(a − b)",
+          "mn(a + b)",
+          "(m + n)(a + b)",
+          "m(a + b) + n",
+        ],
+        answer: 3,
+        explanation:
+          "Fatoração por agrupamento:\nma + na + mb + nb\n= (ma + na) + (mb + nb)   ← agrupando em pares\n= a(m + n) + b(m + n)     ← fator comum em cada grupo\n= (m + n)(a + b) ✓         ← (m + n) é fator comum geral\nVerificação: (m + n)(a + b) = ma + mb + na + nb ✓",
+      },
+      // ── MATEMÁTICA — EQUAÇÕES DO 1º GRAU ─────────────────────────────────
+      {
+        id: "ws5_m11",
+        subject: "matematica",
+        topic: "Equações do 1º Grau — Julgamento de Afirmativas",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'As equações do 1º grau são expressões da forma ax + b = 0, onde a ≠ 0, e possuem sempre uma única solução real. Elas são amplamente usadas para modelar situações do cotidiano. Com base nisso, julgue as afirmativas a seguir:\n\nI. A equação 5x − 15 = 0 tem como solução x = 3.\nII. Na equação 2x + 8 = 0, o valor de x é positivo.\nIII. Uma equação do 1º grau possui sempre uma única solução real.\nIV. A equação 4(x − 2) = 2x + 6 tem como solução x = 7.\n\nAssinale a alternativa correta:',
+        options: [
+          "Apenas as afirmativas I e III são verdadeiras.",
+          "As afirmativas I, II, III e IV são verdadeiras.",
+          "Apenas as afirmativas I, III e IV são verdadeiras.",
+          "Apenas as afirmativas II e IV são verdadeiras.",
+          "Apenas as afirmativas I, II e IV são verdadeiras.",
+        ],
+        answer: 2,
+        explanation:
+          "I. 5x = 15 → x = 3 ✓ VERDADEIRA.\nII. 2x = −8 → x = −4 (negativo) ✗ FALSA.\nIII. Equação do 1º grau com a ≠ 0 sempre tem exatamente uma solução real ✓ VERDADEIRA.\nIV. 4x − 8 = 2x + 6 → 2x = 14 → x = 7 ✓ VERDADEIRA.\nApenas as afirmativas I, III e IV são verdadeiras.",
+      },
+      {
+        id: "ws5_m12",
+        subject: "matematica",
+        topic: "Equações do 1º Grau — Problema (contextualizado)",
+        year: 2026,
+        difficulty: "baixa",
+        source: "Simulado Semanal",
+        question:
+          'Joana comprou 3 ingressos de cinema e 2 combos de pipoca e refrigerante. O preço de cada ingresso é representado pela expressão (2x + 5) reais e cada combo custa (x + 3) reais. Sabendo que Joana gastou R$61,00 no total, assinale a alternativa que apresenta corretamente o valor de x:',
+        options: [
+          "x = 3",
+          "x = 4",
+          "x = 5",
+          "x = 6",
+          "x = 7",
+        ],
+        answer: 2,
+        explanation:
+          "Equação: 3(2x + 5) + 2(x + 3) = 61\n6x + 15 + 2x + 6 = 61\n8x + 21 = 61\n8x = 40\nx = 5 ✓\nVerificação: 3(2·5 + 5) + 2(5 + 3) = 3(15) + 2(8) = 45 + 16 = 61 ✓",
+      },
+      {
+        id: "ws5_m13",
+        subject: "matematica",
+        topic: "Equações do 1º Grau — Herança (contextualizado)",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Três irmãos — Paulo, Sônia e Tereza — dividiram uma herança. Paulo recebeu o dobro do que Sônia recebeu, e Tereza recebeu R$500,00 a mais do que Sônia. Sabendo que o total da herança foi de R$8.500,00, assinale a alternativa que apresenta corretamente o valor recebido por Paulo:',
+        options: [
+          "R$ 2.000,00",
+          "R$ 2.500,00",
+          "R$ 3.000,00",
+          "R$ 4.000,00",
+          "R$ 5.000,00",
+        ],
+        answer: 3,
+        explanation:
+          "Seja Sônia = x → Paulo = 2x → Tereza = x + 500\nEquação: x + 2x + (x + 500) = 8.500\n4x + 500 = 8.500\n4x = 8.000\nx = 2.000 (Sônia)\nPaulo = 2 × 2.000 = R$ 4.000,00 ✓\nVerificação: 2.000 + 4.000 + 2.500 = R$ 8.500,00 ✓",
+      },
+      {
+        id: "ws5_m14",
+        subject: "matematica",
+        topic: "Equações do 1º Grau — Frações (contextualizado)",
+        year: 2026,
+        difficulty: "média",
+        source: "Simulado Semanal",
+        question:
+          'Uma fábrica de componentes eletrônicos em Manaus produz peças em dois turnos. No turno da manhã, são produzidas x/3 peças por hora e, no turno da tarde, x/4 peças por hora. Trabalhando 1 hora em cada turno, a fábrica produziu ao todo 35 peças. Assinale a alternativa que apresenta corretamente o valor de x:',
+        options: [
+          "x = 48",
+          "x = 56",
+          "x = 60",
+          "x = 72",
+          "x = 84",
+        ],
+        answer: 2,
+        explanation:
+          "x/3 + x/4 = 35\nMMC(3, 4) = 12. Multiplicando tudo por 12:\n4x + 3x = 420\n7x = 420\nx = 60 ✓\nVerificação: 60/3 + 60/4 = 20 + 15 = 35 ✓",
+      },
+      {
+        id: "ws5_m15",
+        subject: "matematica",
+        topic: "Equações do 1º Grau — Turma (contextualizado)",
+        year: 2026,
+        difficulty: "alta",
+        source: "Simulado Semanal",
+        question:
+          'Em uma escola de Manaus, o diretor precisa organizar as turmas do 9º ano. Sabe-se que, se retirarmos 8 alunos de uma determinada turma e multiplicarmos o número restante por 3, obteremos exatamente 108 alunos. Com base nessas informações, assinale a alternativa que apresenta corretamente o número original de alunos na turma:',
+        options: [
+          "36 alunos",
+          "40 alunos",
+          "44 alunos",
+          "48 alunos",
+          "52 alunos",
+        ],
+        answer: 2,
+        explanation:
+          "Seja x o número original de alunos.\nEquação: 3(x − 8) = 108\n3x − 24 = 108\n3x = 132\nx = 44 ✓\nVerificação: 3(44 − 8) = 3 × 36 = 108 ✓",
+      },
+    ],
+  },
 };

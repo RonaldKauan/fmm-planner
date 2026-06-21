@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { weekSimulados } from "../data/weekSimulados";
+import { buildResult, saveResult } from "../data/simuladoStorage";
 import "./SimuladoSemanal.css";
 
 const SUBJECT_LABELS = {
@@ -43,7 +44,8 @@ function QuizScreen({ questions, onFinish }) {
       setTimeLeft((t) => {
         if (t <= 1) {
           clearInterval(timerRef.current);
-          finishRef.current(answersRef.current);
+          const totalTime = questions.length * MINUTES_PER_Q * 60;
+          finishRef.current(answersRef.current, totalTime);
           return 0;
         }
         return t - 1;
@@ -59,7 +61,11 @@ function QuizScreen({ questions, onFinish }) {
   const timerWarning = timeLeft < 120;
 
   const select = (i) => setAnswers((a) => ({ ...a, [q.id]: i }));
-  const finish = () => { clearInterval(timerRef.current); onFinish(answers); };
+  const totalTime = questions.length * MINUTES_PER_Q * 60;
+  const finish = () => {
+    clearInterval(timerRef.current);
+    onFinish(answersRef.current, totalTime - timeLeft);
+  };
 
   return (
     <div className="ss-quiz">
@@ -257,9 +263,11 @@ export default function SimuladoSemanal({ weekNum = 1, onBack }) {
 
   const { questions } = data;
 
-  const finish = (ans) => {
+  const finish = (ans, timeUsed) => {
     setAnswers(ans);
     setPhase("results");
+    const result = buildResult({ weekNum, title: data.title, questions, answers: ans, timeUsed });
+    saveResult(result);
   };
 
   const retry = () => {

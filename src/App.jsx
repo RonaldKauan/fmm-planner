@@ -6,6 +6,7 @@ import ProvasAntigas from "./pages/ProvasAntigas";
 import Simulado from "./pages/Simulado";
 import Planejamento from "./pages/Planejamento";
 import SimuladoSemanal from "./pages/SimuladoSemanal";
+import HistoricoSimulados from "./pages/HistoricoSimulados";
 import "./App.css";
 
 export default function App() {
@@ -29,6 +30,8 @@ export default function App() {
         return <Simulado />;
       case "planejamento":
         return <Planejamento onNavigate={navigate} />;
+      case "historico":
+        return <HistoricoSimulados onNavigate={navigate} />;
       case "simuladoSemanal":
         return (
           <SimuladoSemanal

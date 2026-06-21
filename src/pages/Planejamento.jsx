@@ -6,6 +6,7 @@ const SIMULADO_RELEASES = {
   2: "2026-05-24",
   3: "2026-05-31",
   4: "2026-06-06",
+  5: "2026-06-21",
 };
 
 function getLocalDateStr(date) {
@@ -145,7 +146,7 @@ const weeks = [
   {
     num: 5,
     start: "2026-06-08",
-    end: "2026-06-14",
+    end: "2026-06-21",
     focus: "Regência, Crase e Pontuação + Equações",
     subjects: [
       {
@@ -171,8 +172,8 @@ const weeks = [
   },
   {
     num: 6,
-    start: "2026-06-15",
-    end: "2026-06-21",
+    start: "2026-06-22",
+    end: "2026-06-28",
     focus: "Figuras de Linguagem + Equações do 2º Grau",
     subjects: [
       {
@@ -199,8 +200,8 @@ const weeks = [
   },
   {
     num: 7,
-    start: "2026-06-22",
-    end: "2026-06-28",
+    start: "2026-06-29",
+    end: "2026-07-05",
     focus: "Tipos de Texto e Análise Sintática + Funções",
     subjects: [
       {
@@ -226,8 +227,8 @@ const weeks = [
   },
   {
     num: 8,
-    start: "2026-06-29",
-    end: "2026-07-05",
+    start: "2026-07-06",
+    end: "2026-07-12",
     focus: "Revisão de Português + Geometria Plana I",
     subjects: [
       {
@@ -253,8 +254,8 @@ const weeks = [
   },
   {
     num: 9,
-    start: "2026-07-06",
-    end: "2026-07-12",
+    start: "2026-07-13",
+    end: "2026-07-19",
     focus: "Geometria Plana II + Geometria Espacial",
     subjects: [
       {
@@ -272,8 +273,8 @@ const weeks = [
   },
   {
     num: 10,
-    start: "2026-07-13",
-    end: "2026-07-19",
+    start: "2026-07-20",
+    end: "2026-07-26",
     focus: "Progressões e Estatística + Início de Ciências",
     subjects: [
       {
@@ -296,8 +297,8 @@ const weeks = [
   },
   {
     num: 11,
-    start: "2026-07-20",
-    end: "2026-07-26",
+    start: "2026-07-27",
+    end: "2026-08-02",
     focus: "Simulado Português + Matemática | Citologia e Divisão Celular",
     subjects: [
       {
@@ -322,8 +323,8 @@ const weeks = [
   },
   {
     num: 12,
-    start: "2026-07-27",
-    end: "2026-08-02",
+    start: "2026-08-03",
+    end: "2026-08-09",
     focus: "Genética",
     subjects: [
       {
@@ -342,8 +343,8 @@ const weeks = [
   },
   {
     num: 13,
-    start: "2026-08-03",
-    end: "2026-08-09",
+    start: "2026-08-10",
+    end: "2026-08-16",
     focus: "Ecologia e Biomas",
     subjects: [
       {
@@ -363,8 +364,8 @@ const weeks = [
   },
   {
     num: 14,
-    start: "2026-08-10",
-    end: "2026-08-16",
+    start: "2026-08-17",
+    end: "2026-08-23",
     focus: "Seres Vivos e Fisiologia Humana I",
     subjects: [
       {
@@ -383,8 +384,8 @@ const weeks = [
   },
   {
     num: 15,
-    start: "2026-08-17",
-    end: "2026-08-23",
+    start: "2026-08-24",
+    end: "2026-08-30",
     focus: "Fisiologia Humana II",
     subjects: [
       {
@@ -403,8 +404,8 @@ const weeks = [
   },
   {
     num: 16,
-    start: "2026-08-24",
-    end: "2026-08-30",
+    start: "2026-08-31",
+    end: "2026-09-06",
     focus: "Química: Átomo e Tabela Periódica",
     subjects: [
       {
@@ -423,8 +424,8 @@ const weeks = [
   },
   {
     num: 17,
-    start: "2026-08-31",
-    end: "2026-09-06",
+    start: "2026-09-07",
+    end: "2026-09-13",
     focus: "Química: Ligações Químicas e Funções Inorgânicas",
     subjects: [
       {
@@ -443,8 +444,8 @@ const weeks = [
   },
   {
     num: 18,
-    start: "2026-09-07",
-    end: "2026-09-13",
+    start: "2026-09-14",
+    end: "2026-09-20",
     focus: "Química: Reações e Estequiometria",
     subjects: [
       {
@@ -463,8 +464,8 @@ const weeks = [
   },
   {
     num: 19,
-    start: "2026-09-14",
-    end: "2026-09-20",
+    start: "2026-09-21",
+    end: "2026-09-27",
     focus: "Física: Cinemática",
     subjects: [
       {
@@ -483,8 +484,8 @@ const weeks = [
   },
   {
     num: 20,
-    start: "2026-09-21",
-    end: "2026-09-27",
+    start: "2026-09-28",
+    end: "2026-10-04",
     focus: "Física: Dinâmica e Energia",
     subjects: [
       {
@@ -503,8 +504,8 @@ const weeks = [
   },
   {
     num: 21,
-    start: "2026-09-28",
-    end: "2026-10-04",
+    start: "2026-10-05",
+    end: "2026-10-11",
     focus: "Física: Termologia, Óptica e Eletricidade",
     subjects: [
       {
@@ -524,8 +525,8 @@ const weeks = [
   },
   {
     num: 22,
-    start: "2026-10-05",
-    end: "2026-10-11",
+    start: "2026-10-12",
+    end: "2026-10-18",
     focus: "Simulado Completo I (80 questões / 5h)",
     subjects: [
       {
@@ -543,8 +544,8 @@ const weeks = [
   },
   {
     num: 23,
-    start: "2026-10-12",
-    end: "2026-10-18",
+    start: "2026-10-19",
+    end: "2026-10-25",
     focus: "Revisão de Português — Pontos Críticos",
     subjects: [
       {
@@ -563,8 +564,8 @@ const weeks = [
   },
   {
     num: 24,
-    start: "2026-10-19",
-    end: "2026-10-25",
+    start: "2026-10-26",
+    end: "2026-11-01",
     focus: "Revisão de Matemática — Pontos Críticos",
     subjects: [
       {
@@ -583,8 +584,8 @@ const weeks = [
   },
   {
     num: 25,
-    start: "2026-10-26",
-    end: "2026-11-01",
+    start: "2026-11-02",
+    end: "2026-11-08",
     focus: "Revisão de Ciências — Pontos Críticos",
     subjects: [
       {
@@ -603,8 +604,8 @@ const weeks = [
   },
   {
     num: 26,
-    start: "2026-11-02",
-    end: "2026-11-08",
+    start: "2026-11-09",
+    end: "2026-11-15",
     focus: "Simulado Completo II + Revisão Final",
     subjects: [
       {
@@ -622,7 +623,7 @@ const weeks = [
   },
   {
     num: 27,
-    start: "2026-11-09",
+    start: "2026-11-16",
     end: "2026-11-21",
     focus: "Semana Pré-Prova — Revisão Leve",
     subjects: [
@@ -796,7 +797,7 @@ export default function Planejamento({ onNavigate }) {
                           {week.tip}
                         </div>
                       )}
-                      {[1, 2, 3, 4].includes(week.num) && (() => {
+                      {[1, 2, 3, 4, 5].includes(week.num) && (() => {
                         const available = isSimuladoAvailable(week.num);
                         const meta = {
                           1: {
@@ -818,6 +819,11 @@ export default function Planejamento({ onNavigate }) {
                             title: "Simulado da Semana 4",
                             desc: "30 questões: Concordância Verbal e Nominal, Porcentagem, Juros Simples e Compostos.",
                             dateLabel: "Disponível no sábado, 06/06/2026",
+                          },
+                          5: {
+                            title: "Simulado da Semana 5",
+                            desc: "30 questões: Regência Verbal e Nominal, Crase, Pontuação, Expressões Algébricas, Fatoração e Equações do 1º Grau.",
+                            dateLabel: "Disponível no domingo, 21/06/2026",
                           },
                         }[week.num];
                         return (

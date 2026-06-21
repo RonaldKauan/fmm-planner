@@ -6,6 +6,7 @@ const navItems = [
   { id: "provas", label: "Provas Antigas", icon: "📄" },
   { id: "simulado", label: "Simulado", icon: "✏️" },
   { id: "planejamento", label: "Planejamento", icon: "📅" },
+  { id: "historico", label: "Meus Simulados", icon: "📊" },
 ];
 
 export default function Navbar({ currentPage, onNavigate }) {
